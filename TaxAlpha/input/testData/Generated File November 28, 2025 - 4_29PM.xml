@@ -1,0 +1,1083 @@
+<FlexQueryResponse queryName="TestAlpha_Raw_Data_Anonymized" type="AF">
+  <FlexStatements count="5">
+    <FlexStatement accountId="T1234567" fromDate="20210104" toDate="20211231" period="" whenGenerated="20251127;082531">
+      
+
+      <Trades>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210409;103001" tradeDate="20210409" settleDateTarget="20210413" quantity="320" tradePrice="65.39" tradeMoney="20924.8" taxes="0" ibCommission="-10.4624" ibCommissionCurrency="EUR" cost="20935.2624" fifoPnlRealized="0" buySell="BUY" transactionID="100000005634"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210409;103001" tradeDate="20210409" settleDateTarget="20210413" quantity="-320" tradePrice="65.39" tradeMoney="-20924.8" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="-20924.8" fifoPnlRealized="0" buySell="BUY (Ca.)" transactionID="100000006869"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210409;103001" tradeDate="20210409" settleDateTarget="20210414" quantity="320" tradePrice="65.39" tradeMoney="20924.8" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="20924.8" fifoPnlRealized="0" buySell="BUY" transactionID="100000019028"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1615" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210701;113504" tradeDate="20210701" settleDateTarget="20210705" quantity="1" tradePrice="59.3" tradeMoney="59.3" taxes="0" ibCommission="-6" ibCommissionCurrency="GBP" cost="65.3" fifoPnlRealized="0" buySell="BUY" transactionID="100000035550"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1615" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210701;113504" tradeDate="20210701" settleDateTarget="20210705" quantity="11" tradePrice="59.3" tradeMoney="652.3" taxes="0" ibCommission="0" ibCommissionCurrency="GBP" cost="652.3" fifoPnlRealized="0" buySell="BUY" transactionID="100000050431"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1655" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210702;113524" tradeDate="20210702" settleDateTarget="20210706" quantity="86" tradePrice="59.6025" tradeMoney="5125.815" taxes="0" ibCommission="-6" ibCommissionCurrency="GBP" cost="5131.815" fifoPnlRealized="0" buySell="BUY" transactionID="100000050842"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1706" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20211209;113508" tradeDate="20211209" settleDateTarget="20211213" quantity="168" tradePrice="67.55" tradeMoney="11348.4" taxes="0" ibCommission="-5.6742" ibCommissionCurrency="GBP" cost="11354.0742" fifoPnlRealized="0" buySell="BUY" transactionID="100000061773"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1706" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20211209;113508" tradeDate="20211209" settleDateTarget="20211213" quantity="216" tradePrice="67.55" tradeMoney="14590.8" taxes="0" ibCommission="-7.2954" ibCommissionCurrency="GBP" cost="14598.0954" fifoPnlRealized="0" buySell="BUY" transactionID="100000077007"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.8309" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20210421;105015" tradeDate="20210421" settleDateTarget="20210423" quantity="1069" tradePrice="5.204" tradeMoney="5563.076" taxes="0" ibCommission="-5" ibCommissionCurrency="USD" cost="5568.076" fifoPnlRealized="0" buySell="BUY" transactionID="100000086420"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.8309" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20210421;105020" tradeDate="20210421" settleDateTarget="20210423" quantity="931" tradePrice="5.204" tradeMoney="4844.924" taxes="0" ibCommission="-0.204" ibCommissionCurrency="USD" cost="4845.128" fifoPnlRealized="0" buySell="BUY" transactionID="100000092645"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.82508" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20210614;113516" tradeDate="20210614" settleDateTarget="20210616" quantity="2400" tradePrice="5.301" tradeMoney="12722.4" taxes="0" ibCommission="-6.3612" ibCommissionCurrency="USD" cost="12728.7612" fifoPnlRealized="0" buySell="BUY" transactionID="100000098157"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.82468" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20210615;041720" tradeDate="20210615" settleDateTarget="20210617" quantity="2225" tradePrice="5.3" tradeMoney="11792.5" taxes="0" ibCommission="-5.89625" ibCommissionCurrency="USD" cost="11798.39625" fifoPnlRealized="0" buySell="BUY" transactionID="100000115850"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88551" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20211209;113510" tradeDate="20211209" settleDateTarget="20211213" quantity="2439" tradePrice="5.598" tradeMoney="13653.522" taxes="0" ibCommission="-6.826761" ibCommissionCurrency="USD" cost="13660.348761" fifoPnlRealized="0" buySell="BUY" transactionID="100000130740"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88551" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20211209;113510" tradeDate="20211209" settleDateTarget="20211213" quantity="1604" tradePrice="5.598" tradeMoney="8979.192" taxes="0" ibCommission="-4.489596" ibCommissionCurrency="USD" cost="8983.681596" fifoPnlRealized="0" buySell="BUY" transactionID="100000149661"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84034" assetCategory="STK" symbol="C_ETF" description="Mid Term Bond ETF C" isin="DE000A3A3A33" dateTime="20210409;104310" tradeDate="20210409" settleDateTarget="20210413" quantity="55" tradePrice="208.38" tradeMoney="11460.9" taxes="0" ibCommission="-5.73045" ibCommissionCurrency="USD" cost="11466.63045" fifoPnlRealized="0" buySell="BUY" transactionID="100000164487"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.82508" assetCategory="STK" symbol="C_ETF" description="Mid Term Bond ETF C" isin="DE000A3A3A33" dateTime="20210614;113507" tradeDate="20210614" settleDateTarget="20210616" quantity="-55" tradePrice="210.55" tradeMoney="-11580.25" taxes="0" ibCommission="-5.79667" ibCommissionCurrency="USD" cost="-11466.63045" fifoPnlRealized="107.82288" buySell="SELL" transactionID="100000172948"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84389" assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" dateTime="20210701;113519" tradeDate="20210701" settleDateTarget="20210706" quantity="512" tradePrice="34.5575" tradeMoney="17693.44" taxes="0" ibCommission="-8.84672" ibCommissionCurrency="USD" cost="17702.28672" fifoPnlRealized="0" buySell="BUY" transactionID="100000189251"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88551" assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" dateTime="20211209;113506" tradeDate="20211209" settleDateTarget="20211213" quantity="400" tradePrice="34.6525" tradeMoney="13861" taxes="0" ibCommission="-6.9305" ibCommissionCurrency="USD" cost="13867.9305" fifoPnlRealized="0" buySell="BUY" transactionID="100000201221"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1671" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20210705;045539" tradeDate="20210705" settleDateTarget="20210707" quantity="-6826" tradePrice="0.8567" tradeMoney="-5847.8342" taxes="0" ibCommission="-1.68558" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000216014"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.164" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20210707;195150" tradeDate="20210708" settleDateTarget="20210712" quantity="-1.8504" tradePrice="0.85428" tradeMoney="-1.580759712" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000229835"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1795" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20210805;194659" tradeDate="20210806" settleDateTarget="20210810" quantity="-0.3179" tradePrice="0.8494" tradeMoney="-0.27002426" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000242370"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1726" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20211210;051923" tradeDate="20211210" settleDateTarget="20211214" quantity="-30377" tradePrice="0.85426" tradeMoney="-25949.85602" taxes="0" ibCommission="-1.77102" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000255675"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1744" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20211214;195218" tradeDate="20211215" settleDateTarget="20211217" quantity="-2.7187" tradePrice="0.85098" tradeMoney="-2.313559326" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000270281"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84034" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210409;104654" tradeDate="20210409" settleDateTarget="20210413" quantity="-9639" tradePrice="1.1893" tradeMoney="-11463.6627" taxes="0" ibCommission="-1.67852" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000280960"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.83476" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210413;194918" tradeDate="20210414" settleDateTarget="20210416" quantity="-2.4838" tradePrice="1.19485" tradeMoney="-2.96776843" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000293824"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.83239" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210504;071343" tradeDate="20210504" settleDateTarget="20210506" quantity="-8666" tradePrice="1.2013" tradeMoney="-10410.4658" taxes="0" ibCommission="-1.65796" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000304684"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.82508" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210614;114401" tradeDate="20210614" settleDateTarget="20210616" quantity="-904" tradePrice="1.2124" tradeMoney="-1096.0096" taxes="0" ibCommission="-1.6517" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000316925"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.82468" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210615;041827" tradeDate="20210615" settleDateTarget="20210617" quantity="-9717" tradePrice="1.21395" tradeMoney="-11795.95215" taxes="0" ibCommission="-1.65016" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000321853"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84294" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210617;194942" tradeDate="20210618" settleDateTarget="20210622" quantity="-3.1668" tradePrice="1.19065" tradeMoney="-3.77055042" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000332080"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84294" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210705;045539" tradeDate="20210705" settleDateTarget="20210707" quantity="-14589" tradePrice="1.1871" tradeMoney="-17318.6019" taxes="0" ibCommission="-1.68558" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000345272"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84417" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210707;195150" tradeDate="20210708" settleDateTarget="20210712" quantity="-2.6673" tradePrice="1.17905" tradeMoney="-3.144880065" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000351505"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.85026" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210805;194659" tradeDate="20210806" settleDateTarget="20210810" quantity="-0.6508" tradePrice="1.18315" tradeMoney="-0.76999402" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000356102"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88366" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20211210;051923" tradeDate="20211210" settleDateTarget="20211214" quantity="-32274" tradePrice="1.12794" tradeMoney="-36403.13556" taxes="0" ibCommission="-1.77102" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000365044"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88551" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20211214;195218" tradeDate="20211215" settleDateTarget="20211217" quantity="-1.8077" tradePrice="1.12585" tradeMoney="-2.035199045" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100000374278"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00763" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210409;103016" tradeDate="20210409" settleDateTarget="20210413" quantity="339.0" tradePrice="69.3066" tradeMoney="23494.95" taxes="0" ibCommission="-11.119842" ibCommissionCurrency="EUR" cost="23483.826558" fifoPnlRealized="0" buySell="BUY" transactionID="100000005918"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99238" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210409;103042" tradeDate="20210409" settleDateTarget="20210413" quantity="-332.0" tradePrice="67.7476" tradeMoney="-22492.20999931" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-22492.209999" fifoPnlRealized="0" buySell="BUY (Ca.)" transactionID="100000010722"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99137" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210409;103024" tradeDate="20210409" settleDateTarget="20210414" quantity="345.0" tradePrice="70.4104" tradeMoney="24291.59" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="24291.589206" fifoPnlRealized="0" buySell="BUY" transactionID="100000025889"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.15459" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210701;113559" tradeDate="20210701" settleDateTarget="20210705" quantity="1.0" tradePrice="60.1515" tradeMoney="60.15" taxes="0" ibCommission="-6.582312" ibCommissionCurrency="GBP" cost="53.569172" fifoPnlRealized="0" buySell="BUY" transactionID="100000045486"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.16068" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210701;113529" tradeDate="20210701" settleDateTarget="20210705" quantity="11.0" tradePrice="61.7833" tradeMoney="679.62" taxes="0" ibCommission="0.000000" ibCommissionCurrency="GBP" cost="679.616831" fifoPnlRealized="0" buySell="BUY" transactionID="100000050464"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.16885" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20210702;113537" tradeDate="20210702" settleDateTarget="20210706" quantity="90.0" tradePrice="62.7047" tradeMoney="5643.42" taxes="0" ibCommission="-5.819824" ibCommissionCurrency="GBP" cost="5637.599617" fifoPnlRealized="0" buySell="BUY" transactionID="100000060281"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.17782" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20211209;113559" tradeDate="20211209" settleDateTarget="20211213" quantity="175.0" tradePrice="70.3634" tradeMoney="12313.59" taxes="0" ibCommission="-6.032239" ibCommissionCurrency="GBP" cost="12307.562541" fifoPnlRealized="0" buySell="BUY" transactionID="100000071070"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.16675" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20211209;113521" tradeDate="20211209" settleDateTarget="20211213" quantity="218.0" tradePrice="68.3018" tradeMoney="14889.79" taxes="0" ibCommission="-7.465464" ibCommissionCurrency="GBP" cost="14882.324262" fifoPnlRealized="0" buySell="BUY" transactionID="100000084908"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.83761" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20210421;105112" tradeDate="20210421" settleDateTarget="20210423" quantity="1096.0" tradePrice="5.3379" tradeMoney="5850.29" taxes="0" ibCommission="-4.906992" ibCommissionCurrency="USD" cost="5845.383350" fifoPnlRealized="0" buySell="BUY" transactionID="100000091694"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.82868" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20210421;105037" tradeDate="20210421" settleDateTarget="20210423" quantity="981.0" tradePrice="5.4812" tradeMoney="5377.04" taxes="0" ibCommission="-0.212958" ibCommissionCurrency="USD" cost="5376.822878" fifoPnlRealized="0" buySell="BUY" transactionID="100000095882"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.81998" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20210614;113551" tradeDate="20210614" settleDateTarget="20210616" quantity="2558.0" tradePrice="5.6511" tradeMoney="14455.42" taxes="0" ibCommission="-6.750375" ibCommissionCurrency="USD" cost="14448.673475" fifoPnlRealized="0" buySell="BUY" transactionID="100000106723"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.82043" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20210615;041814" tradeDate="20210615" settleDateTarget="20210617" quantity="2348.0" tradePrice="5.5923" tradeMoney="13130.77" taxes="0" ibCommission="-5.820638" ibCommissionCurrency="USD" cost="13124.950506" fifoPnlRealized="0" buySell="BUY" transactionID="100000124352"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88945" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20211209;113557" tradeDate="20211209" settleDateTarget="20211213" quantity="2625.0" tradePrice="6.0252" tradeMoney="15816.02" taxes="0" ibCommission="-7.233858" ibCommissionCurrency="USD" cost="15808.788088" fifoPnlRealized="0" buySell="BUY" transactionID="100000139843"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88884" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20211209;113533" tradeDate="20211209" settleDateTarget="20211213" quantity="1693.0" tradePrice="5.9084" tradeMoney="10002.85" taxes="0" ibCommission="-4.435810" ibCommissionCurrency="USD" cost="9998.414766" fifoPnlRealized="0" buySell="BUY" transactionID="100000155842"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84240" assetCategory="STK" symbol="C_ETF" description="Mid Term Bond ETF C" isin="DE000A3A3A33" dateTime="20210409;104324" tradeDate="20210409" settleDateTarget="20210413" quantity="59.0" tradePrice="222.4944" tradeMoney="13127.17" taxes="0" ibCommission="-5.949565" ibCommissionCurrency="USD" cost="13121.218043" fifoPnlRealized="0" buySell="BUY" transactionID="100000166180"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.82289" assetCategory="STK" symbol="C_ETF" description="Mid Term Bond ETF C" isin="DE000A3A3A33" dateTime="20210614;113606" tradeDate="20210614" settleDateTarget="20210616" quantity="-58.0" tradePrice="223.7357" tradeMoney="-12976.67243235" taxes="0" ibCommission="-5.396808" ibCommissionCurrency="USD" cost="-12982.069240" fifoPnlRealized="109.17540314" buySell="SELL" transactionID="100000181509"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84221" assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" dateTime="20210701;113537" tradeDate="20210701" settleDateTarget="20210706" quantity="525.0" tradePrice="35.4416" tradeMoney="18606.83" taxes="0" ibCommission="-9.325128" ibCommissionCurrency="USD" cost="18597.505758" fifoPnlRealized="0" buySell="BUY" transactionID="100000191938"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88460" assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" dateTime="20211209;113511" tradeDate="20211209" settleDateTarget="20211213" quantity="408.0" tradePrice="35.3324" tradeMoney="14415.62" taxes="0" ibCommission="-6.848805" ibCommissionCurrency="USD" cost="14408.775060" fifoPnlRealized="0" buySell="BUY" transactionID="100000207058"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.17547" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20210705;045614" tradeDate="20210705" settleDateTarget="20210707" quantity="-7348.0" tradePrice="0.9223" tradeMoney="-6776.75427046" taxes="0" ibCommission="-1.777995" ibCommissionCurrency="EUR" cost="-6778.532266" fifoPnlRealized="0" buySell="SELL" transactionID="100000223833"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.16786" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20210707;195215" tradeDate="20210708" settleDateTarget="20210712" quantity="-1.9035" tradePrice="0.8788" tradeMoney="-1.67287203" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-1.672872" fifoPnlRealized="0" buySell="SELL" transactionID="100000236539"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.17946" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20210805;194757" tradeDate="20210806" settleDateTarget="20210810" quantity="-0.3384" tradePrice="0.9042" tradeMoney="-0.30602260" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-0.306023" fifoPnlRealized="0" buySell="SELL" transactionID="100000249036"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.17444" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20211210;052020" tradeDate="20211210" settleDateTarget="20211214" quantity="-31879.0" tradePrice="0.8965" tradeMoney="-28579.40006901" taxes="0" ibCommission="-1.865208" ibCommissionCurrency="EUR" cost="-28581.265277" fifoPnlRealized="0" buySell="SELL" transactionID="100000260940"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.17613" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20211214;195229" tradeDate="20211215" settleDateTarget="20211217" quantity="-2.9144" tradePrice="0.9122" tradeMoney="-2.65860421" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-2.658604" fifoPnlRealized="0" buySell="SELL" transactionID="100000274922"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.83362" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210409;104738" tradeDate="20210409" settleDateTarget="20210413" quantity="-10348.0" tradePrice="1.2767" tradeMoney="-13211.48800376" taxes="0" ibCommission="-1.661092" ibCommissionCurrency="EUR" cost="-13213.149096" fifoPnlRealized="0" buySell="SELL" transactionID="100000287608"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.83820" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210413;194937" tradeDate="20210414" settleDateTarget="20210416" quantity="-2.5159" tradePrice="1.2103" tradeMoney="-3.04491352" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-3.044914" fifoPnlRealized="0" buySell="SELL" transactionID="100000303388"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.83411" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210504;071424" tradeDate="20210504" settleDateTarget="20210506" quantity="-8799.0" tradePrice="1.2197" tradeMoney="-10732.28330668" taxes="0" ibCommission="-1.545923" ibCommissionCurrency="EUR" cost="-10733.829230" fifoPnlRealized="0" buySell="SELL" transactionID="100000309864"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.82290" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210614;114412" tradeDate="20210614" settleDateTarget="20210616" quantity="-920.0" tradePrice="1.2340" tradeMoney="-1135.28141191" taxes="0" ibCommission="-1.609104" ibCommissionCurrency="EUR" cost="-1136.890515" fifoPnlRealized="0" buySell="SELL" transactionID="100000318057"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.82433" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210615;041858" tradeDate="20210615" settleDateTarget="20210617" quantity="-9989.0" tradePrice="1.2479" tradeMoney="-12465.22278768" taxes="0" ibCommission="-1.541310" ibCommissionCurrency="EUR" cost="-12466.764098" fifoPnlRealized="0" buySell="SELL" transactionID="100000327958"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.83837" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210617;195030" tradeDate="20210618" settleDateTarget="20210622" quantity="-3.2759" tradePrice="1.2317" tradeMoney="-4.03482872" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-4.034829" fifoPnlRealized="0" buySell="SELL" transactionID="100000340752"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84403" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210705;045635" tradeDate="20210705" settleDateTarget="20210707" quantity="-15500.0" tradePrice="1.2612" tradeMoney="-19549.30298357" taxes="0" ibCommission="-1.708318" ibCommissionCurrency="EUR" cost="-19551.011302" fifoPnlRealized="0" buySell="SELL" transactionID="100000346125"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84875" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210707;195201" tradeDate="20210708" settleDateTarget="20210712" quantity="-2.7180" tradePrice="1.2015" tradeMoney="-3.26559944" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-3.265599" fifoPnlRealized="0" buySell="SELL" transactionID="100000353666"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.85808" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20210805;194739" tradeDate="20210806" settleDateTarget="20210810" quantity="-0.6684" tradePrice="1.2152" tradeMoney="-0.81225770" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-0.812258" fifoPnlRealized="0" buySell="SELL" transactionID="100000356212"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88000" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20211210;052011" tradeDate="20211210" settleDateTarget="20211214" quantity="-34615.0" tradePrice="1.2098" tradeMoney="-41875.57252572" taxes="0" ibCommission="-1.775056" ibCommissionCurrency="EUR" cost="-41877.347581" fifoPnlRealized="0" buySell="SELL" transactionID="100000369151"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.87933" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20211214;195301" tradeDate="20211215" settleDateTarget="20211217" quantity="-1.9283" tradePrice="1.2010" tradeMoney="-2.31591998" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-2.315920" fifoPnlRealized="0" buySell="SELL" transactionID="100000383510"/>
+      </Trades>
+      <CorporateActions>
+</CorporateActions>
+      <CashTransactions>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.82006" assetCategory="STK" symbol="C_ETF" description="C_ETF(DE000A3A3A33) CASH DIVIDEND USD 1.192 PER SHARE (Mixed Income)" isin="DE000A3A3A33" dateTime="20210526;202000" amount="65.56" type="Dividends" transactionID="100000388347"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.84389" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0465 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20210630;202000" amount="308.06" type="Dividends" transactionID="100000405858"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.84389" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.226496 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20210630;202000" amount="72.48" type="Dividends" transactionID="100000417023"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86255" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.255486 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="25.04" type="Dividends" transactionID="100000420568"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86255" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.255486 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="56.21" type="Dividends" transactionID="100000423839"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86124" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.255486 PER SHARE - REVERSAL (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="-56.21" type="Dividends" transactionID="100000440354"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86124" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.255486 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="54.67" type="Dividends" transactionID="100000451555"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.88296" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.238058 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20211229;202000" amount="31.42" type="Dividends" transactionID="100000459711"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.87933" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.238058 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20211229;202000" amount="114.74" type="Dividends" transactionID="100000466655"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86255" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="25.55" type="Payment In Lieu Of Dividends" transactionID="100000484994"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86124" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND - REVERSAL (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="-25.55" type="Payment In Lieu Of Dividends" transactionID="100000495253"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86124" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="27.08" type="Payment In Lieu Of Dividends" transactionID="100000508955"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.88296" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND (Mixed Income)" isin="DE000A1A1A11" dateTime="20211229;202000" amount="44.75" type="Payment In Lieu Of Dividends" transactionID="100000515793"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20210405;171523" amount="-0.05" type="Other Fees" transactionID="100000524382"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20210405;171523" amount="0.05" type="Other Fees" transactionID="100000529245"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20210505;172700" amount="-0.15" type="Other Fees" transactionID="100000546899"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20210505;172700" amount="0.15" type="Other Fees" transactionID="100000557068"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Monthly Minimum Fee Balance" isin="" dateTime="20210603;173053" amount="-6.52" type="Other Fees" transactionID="100000564891"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Electronic Fund Transfer" isin="" dateTime="20211209" amount="60000" type="Deposits/Withdrawals" transactionID="100000576214"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20210804" amount="-22.25" type="Broker Interest Paid" transactionID="100000590168"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20210903" amount="-27.59" type="Broker Interest Paid" transactionID="100000598628"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20211005" amount="-26.7" type="Broker Interest Paid" transactionID="100000614629"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20211103" amount="-27.59" type="Broker Interest Paid" transactionID="100000618391"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20211203" amount="-26.7" type="Broker Interest Paid" transactionID="100000633289"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="GBP" fxRateToBase="1.1733" assetCategory="" symbol="" description="GBP Debit Interest" isin="" dateTime="20210804" amount="-0.27" type="Broker Interest Paid" transactionID="100000651585"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.83294" assetCategory="" symbol="" description="USD Debit Interest" isin="" dateTime="20210505" amount="-3.6" type="Broker Interest Paid" transactionID="100000668565"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.82461" assetCategory="" symbol="" description="USD Debit Interest" isin="" dateTime="20210603" amount="-2.25" type="Broker Interest Paid" transactionID="100000681110"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.8448" assetCategory="" symbol="" description="USD Debit Interest" isin="" dateTime="20210804" amount="-0.77" type="Broker Interest Paid" transactionID="100000686870"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20210505" amount="1.18" type="Broker Interest Received" transactionID="100000699059"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20210603" amount="1.6" type="Broker Interest Received" transactionID="100000712897"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20210706" amount="0.98" type="Broker Interest Received" transactionID="100000724098"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20210804" amount="0.86" type="Broker Interest Received" transactionID="100000727077"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20210903" amount="0.17" type="Broker Interest Received" transactionID="100000742418"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20211005" amount="0.41" type="Broker Interest Received" transactionID="100000752916"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.81900" assetCategory="STK" symbol="C_ETF" description="C_ETF(DE000A3A3A33) CASH DIVIDEND USD 1.192 PER SHARE (Mixed Income)" isin="DE000A3A3A33" dateTime="20210526;202000" amount="70.19" type="Dividends" transactionID="100000396055"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.84616" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0465 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20210630;202000" amount="323.71" type="Dividends" transactionID="100000413532"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.85076" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.226496 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20210630;202000" amount="78.22" type="Dividends" transactionID="100000419919"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.85509" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.255486 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="26.27" type="Dividends" transactionID="100000422749"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86345" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.255486 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="59.15" type="Dividends" transactionID="100000430629"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86341" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.255486 PER SHARE - REVERSAL (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="-59.45" type="Dividends" transactionID="100000444048"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86512" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.255486 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="58.15" type="Dividends" transactionID="100000456180"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.88669" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.238058 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20211229;202000" amount="33.68" type="Dividends" transactionID="100000462654"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.88719" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.238058 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20211229;202000" amount="119.95" type="Dividends" transactionID="100000476301"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86245" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="27.23" type="Payment In Lieu Of Dividends" transactionID="100000488692"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86457" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND - REVERSAL (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="-26.08" type="Payment In Lieu Of Dividends" transactionID="100000500695"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.85302" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND (Mixed Income)" isin="DE000A1A1A11" dateTime="20210929;202000" amount="28.43" type="Payment In Lieu Of Dividends" transactionID="100000513647"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.88977" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND (Mixed Income)" isin="DE000A1A1A11" dateTime="20211229;202000" amount="47.10" type="Payment In Lieu Of Dividends" transactionID="100000517007"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00039" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20210405;171523" amount="-0.05" type="Other Fees" transactionID="100000528134"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99703" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20210405;171523" amount="0.05" type="Other Fees" transactionID="100000538719"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00392" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20210505;172700" amount="-0.16" type="Other Fees" transactionID="100000547263"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99037" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20210505;172700" amount="0.15" type="Other Fees" transactionID="100000561834"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99161" assetCategory="" symbol="" description="Monthly Minimum Fee Balance" isin="" dateTime="20210603;173053" amount="-6.78" type="Other Fees" transactionID="100000573533"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00499" assetCategory="" symbol="" description="Electronic Fund Transfer" isin="" dateTime="20211209" amount="62306.95" type="Deposits/Withdrawals" transactionID="100000582894"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99372" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20210804" amount="-23.03" type="Broker Interest Paid" transactionID="100000598604"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00773" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20210903" amount="-28.91" type="Broker Interest Paid" transactionID="100000605797"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00900" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20211005" amount="-27.18" type="Broker Interest Paid" transactionID="100000618113"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00037" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20211103" amount="-29.49" type="Broker Interest Paid" transactionID="100000624255"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00224" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20211203" amount="-28.21" type="Broker Interest Paid" transactionID="100000643122"/>
+        <CashTransaction accountId="T1234567" currency="GBP" fxRateToBase="1.16686" assetCategory="" symbol="" description="GBP Debit Interest" isin="" dateTime="20210804" amount="-0.27" type="Broker Interest Paid" transactionID="100000660441"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.82532" assetCategory="" symbol="" description="USD Debit Interest" isin="" dateTime="20210505" amount="-3.71" type="Broker Interest Paid" transactionID="100000673602"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.82229" assetCategory="" symbol="" description="USD Debit Interest" isin="" dateTime="20210603" amount="-2.34" type="Broker Interest Paid" transactionID="100000684236"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.84219" assetCategory="" symbol="" description="USD Debit Interest" isin="" dateTime="20210804" amount="-0.79" type="Broker Interest Paid" transactionID="100000696030"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00159" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20210505" amount="1.23" type="Broker Interest Received" transactionID="100000703095"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00377" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20210603" amount="1.67" type="Broker Interest Received" transactionID="100000714536"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99886" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20210706" amount="1.01" type="Broker Interest Received" transactionID="100000724116"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99401" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20210804" amount="0.89" type="Broker Interest Received" transactionID="100000733785"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00135" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20210903" amount="0.18" type="Broker Interest Received" transactionID="100000751446"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99197" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20211005" amount="0.44" type="Broker Interest Received" transactionID="100000755792"/>
+      </CashTransactions>
+      <SecuritiesInfo>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="C_ETF" description="Mid Term Bond ETF C" isin="DE000A3A3A33" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" multiplier="1"/>
+        
+
+      </SecuritiesInfo>
+      
+
+    </FlexStatement>
+    
+
+    <FlexStatement accountId="T1234567" fromDate="20250101" toDate="20251126" period="" whenGenerated="20251127;122557">
+      
+
+      <Trades>
+        
+
+        <AssetSummary accountId="T1234567" currency="" fxRateToBase="" assetCategory="STK" symbol="" description="" isin="" dateTime="" tradeDate="" settleDateTarget="" quantity="24918.0518" tradePrice="" tradeMoney="" taxes="0" ibCommission="-271.685094959" ibCommissionCurrency="" cost="" fifoPnlRealized="" buySell="" transactionID="100000757202"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="E_ETF" description="Nasdaq 100 Acc ETF E" isin="DE000A5A5A55" dateTime="20250402;113622" tradeDate="20250402" settleDateTarget="20250404" quantity="-136" tradePrice="1029.2" tradeMoney="-139971.2" taxes="0" ibCommission="-35.1787328" ibCommissionCurrency="EUR" cost="-144275.255731" fifoPnlRealized="-4339.234464" buySell="SELL" transactionID="100000765666"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="F_ETF" description="S&amp;P 500 Core ETF F" isin="DE000A6A6A66" dateTime="20250402;113600" tradeDate="20250402" settleDateTarget="20250404" quantity="-82" tradePrice="553.66" tradeMoney="-45400.12" taxes="0" ibCommission="-24.71766528" ibCommissionCurrency="EUR" cost="-44510.326892" fifoPnlRealized="865.075443" buySell="SELL" transactionID="100000779144"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20250528;075437" tradeDate="20250528" settleDateTarget="20250530" quantity="-286" tradePrice="2.827" tradeMoney="-808.52" taxes="0" ibCommission="-1.30557488" ibCommissionCurrency="EUR" cost="-921.129426" fifoPnlRealized="-113.915001" buySell="SELL" transactionID="100000790528"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20250528;075522" tradeDate="20250528" settleDateTarget="20250530" quantity="-0.0518" tradePrice="2.8261" tradeMoney="-0.14639198" taxes="0" ibCommission="-1.25" ibCommissionCurrency="EUR" cost="-0.166608" fifoPnlRealized="-1.270216" buySell="SELL" transactionID="100000805108"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20250602;113604" tradeDate="20250602" settleDateTarget="20250604" quantity="13215" tradePrice="2.7899" tradeMoney="36868.53" taxes="0" ibCommission="-20.07648032" ibCommissionCurrency="EUR" cost="36888.60648032" fifoPnlRealized="0" buySell="BUY" transactionID="100000819893"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20250630;101724" tradeDate="20250630" settleDateTarget="20250702" quantity="584" tradePrice="2.751" tradeMoney="1606.58" taxes="0" ibCommission="-1.34068952" ibCommissionCurrency="EUR" cost="1607.92068952" fifoPnlRealized="0" buySell="BUY" transactionID="100000830452"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="G_ETP" description="Daily Leveraged Nasdaq ETP G" isin="FR000B7B7B77" dateTime="20250604;071226" tradeDate="20250604" settleDateTarget="20250606" quantity="84" tradePrice="1158" tradeMoney="97272" taxes="0" ibCommission="-33.309968" ibCommissionCurrency="EUR" cost="97305.309968" fifoPnlRealized="0" buySell="BUY" transactionID="100000843870"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="G_ETP" description="Daily Leveraged Nasdaq ETP G" isin="FR000B7B7B77" dateTime="20251031;112702" tradeDate="20251031" settleDateTarget="20251104" quantity="3" tradePrice="1595" tradeMoney="4785" taxes="0" ibCommission="-2.3925" ibCommissionCurrency="EUR" cost="4787.3925" fifoPnlRealized="0" buySell="BUY" transactionID="100000849647"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="H_SWP" description="EUR Overnight Rate Swap H" isin="LU000C8C8C88" dateTime="20250409;113619" tradeDate="20250409" settleDateTarget="20250411" quantity="1557" tradePrice="145.922" tradeMoney="227200.55" taxes="0" ibCommission="-39.0168242" ibCommissionCurrency="EUR" cost="227239.5668242" fifoPnlRealized="0" buySell="BUY" transactionID="100000860151"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="H_SWP" description="EUR Overnight Rate Swap H" isin="LU000C8C8C88" dateTime="20250528;113615" tradeDate="20250528" settleDateTarget="20250530" quantity="-1557" tradePrice="146.32" tradeMoney="-227820.24" taxes="0" ibCommission="-39.04409056" ibCommissionCurrency="EUR" cost="-227239.566824" fifoPnlRealized="541.629085" buySell="SELL" transactionID="100000864494"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" dateTime="20250402;113606" tradeDate="20250402" settleDateTarget="20250404" quantity="-210" tradePrice="195.3" tradeMoney="-41013" taxes="0" ibCommission="-22.331072" ibCommissionCurrency="EUR" cost="-39277.0287" fifoPnlRealized="1713.640228" buySell="SELL" transactionID="100000875474"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" dateTime="20250602;113615" tradeDate="20250602" settleDateTarget="20250604" quantity="480" tradePrice="196.88" tradeMoney="94502.4" taxes="0" ibCommission="-33.1781056" ibCommissionCurrency="EUR" cost="94535.5781056" fifoPnlRealized="0" buySell="BUY" transactionID="100000886099"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" dateTime="20251031;112830" tradeDate="20251031" settleDateTarget="20251104" quantity="56" tradePrice="259.3" tradeMoney="14520.8" taxes="0" ibCommission="-7.2604" ibCommissionCurrency="EUR" cost="14528.0604" fifoPnlRealized="0" buySell="BUY" transactionID="100000897354"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.86675" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20251031;111432" tradeDate="20251031" settleDateTarget="20251104" quantity="-1" tradePrice="3.3735" tradeMoney="-3.3735" taxes="0" ibCommission="-1.78" ibCommissionCurrency="USD" cost="-5.303651" fifoPnlRealized="-3.710151" buySell="SELL" transactionID="100000913174"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.86675" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20251031;111432" tradeDate="20251031" settleDateTarget="20251104" quantity="-50" tradePrice="3.3735" tradeMoney="-168.675" taxes="0" ibCommission="-0.08" ibCommissionCurrency="USD" cost="-265.182525" fifoPnlRealized="-96.587525" buySell="SELL" transactionID="100000922602"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.86675" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20251031;111551" tradeDate="20251031" settleDateTarget="20251104" quantity="-4038" tradePrice="3.3724" tradeMoney="-13617.75" taxes="0" ibCommission="-6.808875" ibCommissionCurrency="USD" cost="-21535.448343" fifoPnlRealized="-7924.507218" buySell="SELL" transactionID="100000927064"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.86675" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20251031;111552" tradeDate="20251031" settleDateTarget="20251104" quantity="-2579" tradePrice="3.3724" tradeMoney="-8697.42" taxes="0" ibCommission="-4.34871" ibCommissionCurrency="USD" cost="-14444.460621" fifoPnlRealized="-5751.389331" buySell="SELL" transactionID="100000936835"/>
+        
+
+        <AssetSummary accountId="T1234567" currency="" fxRateToBase="" assetCategory="CASH" symbol="" description="" isin="" dateTime="" tradeDate="" settleDateTarget="" quantity="" tradePrice="" tradeMoney="" taxes="0" ibCommission="-5.261" ibCommissionCurrency="" cost="" fifoPnlRealized="" buySell="" transactionID="100000950721"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.91328" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20250409;093124" tradeDate="20250409" settleDateTarget="20250411" quantity="1117.34" tradePrice="1.10725" tradeMoney="1237.174715" taxes="0" ibCommission="-1.82512" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100000957636"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.87729" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20250415;222704" tradeDate="20250416" settleDateTarget="20250422" quantity="0.0047" tradePrice="1.12825" tradeMoney="0.005302775" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100000975036"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84834" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20250630;094551" tradeDate="20250630" settleDateTarget="20250702" quantity="1387.5" tradePrice="1.17143" tradeMoney="1625.359125" taxes="0" ibCommission="-1.70648" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100000989881"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.86675" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20251031;112459" tradeDate="20251031" settleDateTarget="20251104" quantity="19655.55" tradePrice="1.1534" tradeMoney="22670.71137" taxes="0" ibCommission="-1.7294" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001001735"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.87013" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20251104;230149" tradeDate="20251105" settleDateTarget="20251107" quantity="0.009" tradePrice="1.14825" tradeMoney="0.01033425" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001010950"/>
+        
+
+        <AssetSummary accountId="T1234567" currency="" fxRateToBase="" assetCategory="STK" symbol="" description="" isin="" dateTime="" tradeDate="" settleDateTarget="" quantity="24918.0518" tradePrice="" tradeMoney="" taxes="0" ibCommission="-271.685094959" ibCommissionCurrency="" cost="" fifoPnlRealized="" buySell="" transactionID="100000759969"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00949" assetCategory="STK" symbol="E_ETF" description="Nasdaq 100 Acc ETF E" isin="DE000A5A5A55" dateTime="20250402;113657" tradeDate="20250402" settleDateTarget="20250404" quantity="-142.0" tradePrice="1077.3578" tradeMoney="-152984.81039793" taxes="0" ibCommission="-35.983412" ibCommissionCurrency="EUR" cost="-153020.793810" fifoPnlRealized="-3950.96532561" buySell="SELL" transactionID="100000769263"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99545" assetCategory="STK" symbol="F_ETF" description="S&amp;P 500 Core ETF F" isin="DE000A6A6A66" dateTime="20250402;113635" tradeDate="20250402" settleDateTarget="20250404" quantity="-84.0" tradePrice="567.3328" tradeMoney="-47655.95939210" taxes="0" ibCommission="-23.805928" ibCommissionCurrency="EUR" cost="-47679.765320" fifoPnlRealized="802.58311308" buySell="SELL" transactionID="100000780659"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99544" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20250528;075520" tradeDate="20250528" settleDateTarget="20250530" quantity="-290.0" tradePrice="2.8626" tradeMoney="-830.16799884" taxes="0" ibCommission="-1.222289" ibCommissionCurrency="EUR" cost="-831.390288" fifoPnlRealized="-114.69791069" buySell="SELL" transactionID="100000795285"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99249" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20250528;075614" tradeDate="20250528" settleDateTarget="20250530" quantity="-0.0527" tradePrice="2.8766" tradeMoney="-0.15166824" taxes="0" ibCommission="-1.349659" ibCommissionCurrency="EUR" cost="-1.501327" fifoPnlRealized="-1.38843342" buySell="SELL" transactionID="100000811673"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99788" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20250602;113649" tradeDate="20250602" settleDateTarget="20250604" quantity="14074.0" tradePrice="2.9712" tradeMoney="41816.43" taxes="0" ibCommission="-19.814558" ibCommissionCurrency="EUR" cost="41796.620138" fifoPnlRealized="0" buySell="BUY" transactionID="100000823946"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99362" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20250630;101758" tradeDate="20250630" settleDateTarget="20250702" quantity="630.0" tradePrice="2.9689" tradeMoney="1870.38" taxes="0" ibCommission="-1.242482" ibCommissionCurrency="EUR" cost="1869.139530" fifoPnlRealized="0" buySell="BUY" transactionID="100000839518"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99344" assetCategory="STK" symbol="G_ETP" description="Daily Leveraged Nasdaq ETP G" isin="FR000B7B7B77" dateTime="20250604;071231" tradeDate="20250604" settleDateTarget="20250606" quantity="86.0" tradePrice="1184.8056" tradeMoney="101893.28" taxes="0" ibCommission="-33.830225" ibCommissionCurrency="EUR" cost="101859.450425" fifoPnlRealized="0" buySell="BUY" transactionID="100000846484"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99981" assetCategory="STK" symbol="G_ETP" description="Daily Leveraged Nasdaq ETP G" isin="FR000B7B7B77" dateTime="20251031;112709" tradeDate="20251031" settleDateTarget="20251104" quantity="3.0" tradePrice="1700.1186" tradeMoney="5100.36" taxes="0" ibCommission="-2.463899" ibCommissionCurrency="EUR" cost="5097.891787" fifoPnlRealized="0" buySell="BUY" transactionID="100000855953"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00434" assetCategory="STK" symbol="H_SWP" description="EUR Overnight Rate Swap H" isin="LU000C8C8C88" dateTime="20250409;113709" tradeDate="20250409" settleDateTarget="20250411" quantity="1657.0" tradePrice="155.2633" tradeMoney="257271.31" taxes="0" ibCommission="-36.953300" ibCommissionCurrency="EUR" cost="257234.355970" fifoPnlRealized="0" buySell="BUY" transactionID="100000861982"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00365" assetCategory="STK" symbol="H_SWP" description="EUR Overnight Rate Swap H" isin="LU000C8C8C88" dateTime="20250528;113638" tradeDate="20250528" settleDateTarget="20250530" quantity="-1602.0" tradePrice="150.5882" tradeMoney="-241242.26208314" taxes="0" ibCommission="-41.602640" ibCommissionCurrency="EUR" cost="-241283.864723" fifoPnlRealized="543.67499664" buySell="SELL" transactionID="100000872129"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00923" assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" dateTime="20250402;113638" tradeDate="20250402" settleDateTarget="20250404" quantity="-222.0" tradePrice="206.0482" tradeMoney="-45742.70072214" taxes="0" ibCommission="-22.136845" ibCommissionCurrency="EUR" cost="-45764.837568" fifoPnlRealized="1829.19058426" buySell="SELL" transactionID="100000879826"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99281" assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" dateTime="20250602;113637" tradeDate="20250602" settleDateTarget="20250604" quantity="501.0" tradePrice="205.5163" tradeMoney="102963.65" taxes="0" ibCommission="-33.467889" ibCommissionCurrency="EUR" cost="102930.184507" fifoPnlRealized="0" buySell="BUY" transactionID="100000894112"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00673" assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" dateTime="20251031;112908" tradeDate="20251031" settleDateTarget="20251104" quantity="59.0" tradePrice="274.4866" tradeMoney="16194.71" taxes="0" ibCommission="-7.191211" ibCommissionCurrency="EUR" cost="16187.519706" fifoPnlRealized="0" buySell="BUY" transactionID="100000904678"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.87154" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20251031;111523" tradeDate="20251031" settleDateTarget="20251104" quantity="-1.0" tradePrice="3.4213" tradeMoney="-3.42128304" taxes="0" ibCommission="-1.802802" ibCommissionCurrency="USD" cost="-5.224085" fifoPnlRealized="-3.86226043" buySell="SELL" transactionID="100000913763"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.86268" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20251031;111508" tradeDate="20251031" settleDateTarget="20251104" quantity="-53.0" tradePrice="3.5657" tradeMoney="-188.98304900" taxes="0" ibCommission="-0.079782" ibCommissionCurrency="USD" cost="-189.062831" fifoPnlRealized="-103.64775442" buySell="SELL" transactionID="100000923940"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.87115" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20251031;111616" tradeDate="20251031" settleDateTarget="20251104" quantity="-4241.0" tradePrice="3.5416" tradeMoney="-15019.85014148" taxes="0" ibCommission="-6.434752" ibCommissionCurrency="USD" cost="-15026.284894" fifoPnlRealized="-8291.98767134" buySell="SELL" transactionID="100000935397"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.86536" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20251031;111602" tradeDate="20251031" settleDateTarget="20251104" quantity="-2630.0" tradePrice="3.4392" tradeMoney="-9044.96765379" taxes="0" ibCommission="-4.128996" ibCommissionCurrency="USD" cost="-9049.096650" fifoPnlRealized="-5840.59452355" buySell="SELL" transactionID="100000944390"/>
+        <AssetSummary accountId="T1234567" currency="" fxRateToBase="" assetCategory="CASH" symbol="" description="" isin="" dateTime="" tradeDate="" settleDateTarget="" quantity="" tradePrice="" tradeMoney="" taxes="0" ibCommission="-5.261" ibCommissionCurrency="" cost="" fifoPnlRealized="" buySell="" transactionID="100000951115"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.90574" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20250409;093151" tradeDate="20250409" settleDateTarget="20250411" quantity="1145.96" tradePrice="1.1356" tradeMoney="1301.37" taxes="0" ibCommission="-1.824311" ibCommissionCurrency="EUR" cost="1299.547049" fifoPnlRealized="0" buySell="BUY" transactionID="100000966170"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88160" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20250415;222714" tradeDate="20250416" settleDateTarget="20250422" quantity="0.0048" tradePrice="1.1637" tradeMoney="0.00564088" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="0.005641" fifoPnlRealized="0" buySell="BUY" transactionID="100000984421"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.84366" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20250630;094615" tradeDate="20250630" settleDateTarget="20250702" quantity="1434.5" tradePrice="1.2111" tradeMoney="1737.27" taxes="0" ibCommission="-1.729470" ibCommissionCurrency="EUR" cost="1735.540194" fifoPnlRealized="0" buySell="BUY" transactionID="100000999848"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.87502" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20251031;112541" tradeDate="20251031" settleDateTarget="20251104" quantity="21109.23" tradePrice="1.2387" tradeMoney="26148.07" taxes="0" ibCommission="-1.894709" ibCommissionCurrency="EUR" cost="26146.177506" fifoPnlRealized="0" buySell="BUY" transactionID="100001004231"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.87021" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20251104;230236" tradeDate="20251105" settleDateTarget="20251107" quantity="0.010" tradePrice="1.2212" tradeMoney="0.01168874" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="0.011689" fifoPnlRealized="0" buySell="BUY" transactionID="100001018058"/>
+      </Trades>
+      <CorporateActions>
+</CorporateActions>
+      <CashTransactions>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20250505" amount="-16.73" type="Withholding Tax" transactionID="100001020027"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20250604" amount="-3.95" type="Withholding Tax" transactionID="100001032748"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20250703" amount="-7.88" type="Withholding Tax" transactionID="100001044042"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.90484" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.32063 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20250402;202000" amount="102.6" type="Dividends" transactionID="100001061973"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.85462" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0671 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20250625;202000" amount="738.64" type="Dividends" transactionID="100001071334"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.85462" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0671 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20250625;202000" amount="886.73" type="Dividends" transactionID="100001085072"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.84749" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.31292 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20250702;202000" amount="100.13" type="Dividends" transactionID="100001092311"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.85352" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.301175 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20251001;202000" amount="96.38" type="Dividends" transactionID="100001103248"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20250205" amount="1.12" type="Broker Interest Received" transactionID="100001113327"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20250305" amount="0.36" type="Broker Interest Received" transactionID="100001125543"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Credit Interest" isin="" dateTime="20250505" amount="83.67" type="Broker Interest Received" transactionID="100001137189"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20250505" amount="0.13" type="Broker Interest Received" transactionID="100001151667"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Credit Interest" isin="" dateTime="20250604" amount="19.74" type="Broker Interest Received" transactionID="100001164145"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Credit Interest" isin="" dateTime="20250703" amount="39.42" type="Broker Interest Received" transactionID="100001172334"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20250805" amount="1.94" type="Broker Interest Received" transactionID="100001175550"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20250904" amount="1.26" type="Broker Interest Received" transactionID="100001183854"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99691" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20250505" amount="-16.97" type="Withholding Tax" transactionID="100001029339"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00763" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20250604" amount="-4.10" type="Withholding Tax" transactionID="100001037474"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00489" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20250703" amount="-8.38" type="Withholding Tax" transactionID="100001053311"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.89759" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.32063 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20250402;202000" amount="108.71" type="Dividends" transactionID="100001065473"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86241" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0671 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20250625;202000" amount="767.69" type="Dividends" transactionID="100001078025"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.86127" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0671 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20250625;202000" amount="928.73" type="Dividends" transactionID="100001089589"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.84858" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.31292 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20250702;202000" amount="107.87" type="Dividends" transactionID="100001098510"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.85631" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.301175 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20251001;202000" amount="98.50" type="Dividends" transactionID="100001106823"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00706" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20250205" amount="1.16" type="Broker Interest Received" transactionID="100001121090"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00216" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20250305" amount="0.38" type="Broker Interest Received" transactionID="100001133275"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99055" assetCategory="" symbol="" description="EUR Credit Interest" isin="" dateTime="20250505" amount="87.86" type="Broker Interest Received" transactionID="100001144626"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00286" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20250505" amount="0.14" type="Broker Interest Received" transactionID="100001157487"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99340" assetCategory="" symbol="" description="EUR Credit Interest" isin="" dateTime="20250604" amount="20.81" type="Broker Interest Received" transactionID="100001170391"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99662" assetCategory="" symbol="" description="EUR Credit Interest" isin="" dateTime="20250703" amount="41.37" type="Broker Interest Received" transactionID="100001173254"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99849" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20250805" amount="2.01" type="Broker Interest Received" transactionID="100001181662"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99257" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20250904" amount="1.36" type="Broker Interest Received" transactionID="100001185734"/>
+      </CashTransactions>
+      <SecuritiesInfo>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="E_ETF" description="Nasdaq 100 Acc ETF E" isin="DE000A5A5A55" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="F_ETF" description="S&amp;P 500 Core ETF F" isin="DE000A6A6A66" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="G_ETP" description="Daily Leveraged Nasdaq ETP G" isin="FR000B7B7B77" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="H_SWP" description="EUR Overnight Rate Swap H" isin="LU000C8C8C88" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" multiplier="1"/>
+        
+
+      </SecuritiesInfo>
+      
+
+    </FlexStatement>
+    
+
+    <FlexStatement accountId="T1234567" fromDate="20220103" toDate="20221230" period="" whenGenerated="20251127;082609">
+      
+
+      <Trades>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1996" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20220201;113501" tradeDate="20220201" settleDateTarget="20220203" quantity="-184" tradePrice="63.4075" tradeMoney="-11666.98" taxes="0" ibCommission="-5.83349" ibCommissionCurrency="GBP" cost="-11661.61965" fifoPnlRealized="-0.473139" buySell="SELL" transactionID="100001192869"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1996" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20220201;113501" tradeDate="20220201" settleDateTarget="20220203" quantity="-51" tradePrice="63.4075" tradeMoney="-3233.7825" taxes="0" ibCommission="-1.61689125" ibCommissionCurrency="GBP" cost="-3446.772525" fifoPnlRealized="-214.606916" buySell="SELL" transactionID="100001206490"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1982" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20220217;113517" tradeDate="20220217" settleDateTarget="20220221" quantity="145" tradePrice="61.6325" tradeMoney="8936.7125" taxes="0" ibCommission="-4.46835625" ibCommissionCurrency="GBP" cost="8941.18085625" fifoPnlRealized="0" buySell="BUY" transactionID="100001215690"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88015" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20220217;113528" tradeDate="20220217" settleDateTarget="20220222" quantity="1" tradePrice="5.102" tradeMoney="5.102" taxes="0" ibCommission="-4" ibCommissionCurrency="USD" cost="9.102" fifoPnlRealized="0" buySell="BUY" transactionID="100001223057"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88015" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20220217;113528" tradeDate="20220217" settleDateTarget="20220222" quantity="3284" tradePrice="5.102" tradeMoney="16754.968" taxes="0" ibCommission="-4.380035" ibCommissionCurrency="USD" cost="16759.348035" fifoPnlRealized="0" buySell="BUY" transactionID="100001229884"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88015" assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" dateTime="20220217;113510" tradeDate="20220217" settleDateTarget="20220222" quantity="416" tradePrice="36.96" tradeMoney="15375.36" taxes="0" ibCommission="-7.68768" ibCommissionCurrency="USD" cost="15383.04768" fifoPnlRealized="0" buySell="BUY" transactionID="100001236705"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.90661" assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" dateTime="20220322;123513" tradeDate="20220322" settleDateTarget="20220324" quantity="-498" tradePrice="37.4625" tradeMoney="-18656.325" taxes="0" ibCommission="-9.3929025" ibCommissionCurrency="USD" cost="-17218.239818" fifoPnlRealized="1428.69228" buySell="SELL" transactionID="100001243281"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1961" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220106;194720" tradeDate="20220107" settleDateTarget="20220111" quantity="-1.3417" tradePrice="0.8348" tradeMoney="-1.12005116" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100001250031"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.2009" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220202;070853" tradeDate="20220202" settleDateTarget="20220204" quantity="1" tradePrice="0.83435" tradeMoney="0.83435" taxes="0" ibCommission="-1.7741" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001261675"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.2009" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220202;070958" tradeDate="20220202" settleDateTarget="20220204" quantity="17850" tradePrice="0.8344" tradeMoney="14894.04" taxes="0" ibCommission="-1.7741" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001270125"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1831" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220204;195015" tradeDate="20220207" settleDateTarget="20220209" quantity="-1.8457" tradePrice="0.84639" tradeMoney="-1.562182023" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100001276207"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1983" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220223;070248" tradeDate="20220223" settleDateTarget="20220225" quantity="-10710" tradePrice="0.8349" tradeMoney="-8941.779" taxes="0" ibCommission="-1.76596" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100001283126"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.2073" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220304;195308" tradeDate="20220307" settleDateTarget="20220309" quantity="-1.4918" tradePrice="0.8258" tradeMoney="-1.23192844" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100001287165"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88455" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20220223;070248" tradeDate="20220223" settleDateTarget="20220225" quantity="-27718" tradePrice="1.13411" tradeMoney="-31435.26098" taxes="0" ibCommission="-1.76596" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100001300131"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.89139" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20220225;194731" tradeDate="20220228" settleDateTarget="20220302" quantity="-2.7741" tradePrice="1.12715" tradeMoney="-3.126826815" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100001309524"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.92129" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20220304;195308" tradeDate="20220307" settleDateTarget="20220309" quantity="-3.7879" tradePrice="1.09295" tradeMoney="-4.139985305" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="SELL" transactionID="100001319226"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.90203" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20220329;073007" tradeDate="20220329" settleDateTarget="20220331" quantity="16888" tradePrice="1.10415" tradeMoney="18646.8852" taxes="0" ibCommission="-1.82044" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001321695"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.90516" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20220331;194806" tradeDate="20220401" settleDateTarget="20220405" quantity="0.0424" tradePrice="1.10675" tradeMoney="0.0469262" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001337383"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.20226" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20220201;113516" tradeDate="20220201" settleDateTarget="20220203" quantity="-192.0" tradePrice="66.0999" tradeMoney="-12691.17624436" taxes="0" ibCommission="-5.621845" ibCommissionCurrency="GBP" cost="-12696.798089" fifoPnlRealized="-0.44100225" buySell="SELL" transactionID="100001202320"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.20503" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20220201;113530" tradeDate="20220201" settleDateTarget="20220203" quantity="-55.0" tradePrice="68.1010" tradeMoney="-3745.55761037" taxes="0" ibCommission="-1.716366" ibCommissionCurrency="GBP" cost="-3747.273976" fifoPnlRealized="-206.88410595" buySell="SELL" transactionID="100001209004"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.18700" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20220217;113533" tradeDate="20220217" settleDateTarget="20220221" quantity="150.0" tradePrice="63.8367" tradeMoney="9575.51" taxes="0" ibCommission="-4.037413" ibCommissionCurrency="GBP" cost="9571.472383" fifoPnlRealized="0" buySell="BUY" transactionID="100001217784"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.87698" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20220217;113534" tradeDate="20220217" settleDateTarget="20220222" quantity="1.0" tradePrice="5.3132" tradeMoney="5.31" taxes="0" ibCommission="-3.835604" ibCommissionCurrency="USD" cost="1.477551" fifoPnlRealized="0" buySell="BUY" transactionID="100001228060"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88376" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20220217;113603" tradeDate="20220217" settleDateTarget="20220222" quantity="3338.0" tradePrice="5.1858" tradeMoney="17310.12" taxes="0" ibCommission="-4.562214" ibCommissionCurrency="USD" cost="17305.553127" fifoPnlRealized="0" buySell="BUY" transactionID="100001235328"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.87885" assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" dateTime="20220217;113530" tradeDate="20220217" settleDateTarget="20220222" quantity="423.0" tradePrice="37.5624" tradeMoney="15888.91" taxes="0" ibCommission="-7.992068" ibCommissionCurrency="USD" cost="15880.913202" fifoPnlRealized="0" buySell="BUY" transactionID="100001238598"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.90832" assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" dateTime="20220322;123613" tradeDate="20220322" settleDateTarget="20220324" quantity="-536.0" tradePrice="40.3305" tradeMoney="-21617.16124434" taxes="0" ibCommission="-8.632320" ibCommissionCurrency="USD" cost="-21625.793565" fifoPnlRealized="1430.22579972" buySell="SELL" transactionID="100001245708"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.19594" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220106;194754" tradeDate="20220107" settleDateTarget="20220111" quantity="-1.3878" tradePrice="0.8635" tradeMoney="-1.19828420" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-1.198284" fifoPnlRealized="0" buySell="SELL" transactionID="100001259900"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.19899" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220202;070912" tradeDate="20220202" settleDateTarget="20220204" quantity="1.0" tradePrice="0.8618" tradeMoney="0.86177539" taxes="0" ibCommission="-1.615729" ibCommissionCurrency="EUR" cost="-0.753954" fifoPnlRealized="0" buySell="BUY" transactionID="100001267800"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.20358" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220202;071049" tradeDate="20220202" settleDateTarget="20220204" quantity="18352.0" tradePrice="0.8579" tradeMoney="15743.32" taxes="0" ibCommission="-1.915154" ibCommissionCurrency="EUR" cost="15741.401998" fifoPnlRealized="0" buySell="BUY" transactionID="100001273919"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.19343" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220204;195057" tradeDate="20220207" settleDateTarget="20220209" quantity="-1.9126" tradePrice="0.8771" tradeMoney="-1.67753896" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-1.677539" fifoPnlRealized="0" buySell="SELL" transactionID="100001281718"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.19005" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220223;070307" tradeDate="20220223" settleDateTarget="20220225" quantity="-11473.0" tradePrice="0.8944" tradeMoney="-10261.57547186" taxes="0" ibCommission="-1.905831" ibCommissionCurrency="EUR" cost="-10263.481303" fifoPnlRealized="0" buySell="SELL" transactionID="100001284198"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.21673" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20220304;195319" tradeDate="20220307" settleDateTarget="20220309" quantity="-1.5307" tradePrice="0.8473" tradeMoney="-1.29693678" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-1.296937" fifoPnlRealized="0" buySell="SELL" transactionID="100001294399"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.87675" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20220223;070324" tradeDate="20220223" settleDateTarget="20220225" quantity="-29712.0" tradePrice="1.2157" tradeMoney="-36120.42828312" taxes="0" ibCommission="-1.933229" ibCommissionCurrency="EUR" cost="-36122.361512" fifoPnlRealized="0" buySell="SELL" transactionID="100001302862"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.88790" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20220225;194820" tradeDate="20220228" settleDateTarget="20220302" quantity="-2.9269" tradePrice="1.1892" tradeMoney="-3.48068593" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-3.480686" fifoPnlRealized="0" buySell="SELL" transactionID="100001318832"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.92988" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20220304;195323" tradeDate="20220307" settleDateTarget="20220309" quantity="-3.9388" tradePrice="1.1365" tradeMoney="-4.47638764" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="-4.476388" fifoPnlRealized="0" buySell="SELL" transactionID="100001321013"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.89366" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20220329;073015" tradeDate="20220329" settleDateTarget="20220331" quantity="18023.0" tradePrice="1.1784" tradeMoney="21237.64" taxes="0" ibCommission="-1.852543" ibCommissionCurrency="EUR" cost="21235.789772" fifoPnlRealized="0" buySell="BUY" transactionID="100001328007"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.90524" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20220331;194837" tradeDate="20220401" settleDateTarget="20220405" quantity="0.0431" tradePrice="1.1262" tradeMoney="0.04858887" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="0.048589" fifoPnlRealized="0" buySell="BUY" transactionID="100001344469"/>
+      </Trades>
+      <CorporateActions>
+</CorporateActions>
+      <CashTransactions>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.88514" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0491 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20211231;202000" amount="523.8" type="Dividends" transactionID="100001347899"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91144" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.257535 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="44.81" type="Dividends" transactionID="100001357509"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91701" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.257535 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="100.95" type="Dividends" transactionID="100001369550"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91701" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.257535 PER SHARE - REVERSAL (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="-44.81" type="Dividends" transactionID="100001379879"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91701" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.257535 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="44.55" type="Dividends" transactionID="100001392100"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.95389" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0528 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20220629;202000" amount="736.72" type="Dividends" transactionID="100001409599"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.95389" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.25567 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220629;202000" amount="100.22" type="Dividends" transactionID="100001424411"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.95389" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.25567 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220629;202000" amount="81.81" type="Dividends" transactionID="100001438071"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="1.027" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.264165 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220928;202000" amount="103.55" type="Dividends" transactionID="100001454882"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="1.0189" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.264165 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220928;202000" amount="84.53" type="Dividends" transactionID="100001463556"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.93791" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.259552 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20221228;202000" amount="101.74" type="Dividends" transactionID="100001469126"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.93791" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.259552 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20221228;202000" amount="83.06" type="Dividends" transactionID="100001476922"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91144" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="37.6" type="Payment In Lieu Of Dividends" transactionID="100001482138"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91701" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND - REVERSAL (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="-37.6" type="Payment In Lieu Of Dividends" transactionID="100001491814"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91701" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="37.86" type="Payment In Lieu Of Dividends" transactionID="100001501232"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Electronic Fund Transfer" isin="" dateTime="20220214" amount="30000" type="Deposits/Withdrawals" transactionID="100001517470"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20220105" amount="-25.36" type="Broker Interest Paid" transactionID="100001526777"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20220203" amount="-31.31" type="Broker Interest Paid" transactionID="100001539872"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20220303" amount="-8.11" type="Broker Interest Paid" transactionID="100001548927"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20220405" amount="-18.6" type="Broker Interest Paid" transactionID="100001560513"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="GBP" fxRateToBase="1.1984" assetCategory="" symbol="" description="GBP Debit Interest" isin="" dateTime="20220105" amount="-1.12" type="Broker Interest Paid" transactionID="100001569655"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="GBP" fxRateToBase="1.2063" assetCategory="" symbol="" description="GBP Debit Interest" isin="" dateTime="20220303" amount="-1.83" type="Broker Interest Paid" transactionID="100001576185"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.88397" assetCategory="" symbol="" description="USD Debit Interest" isin="" dateTime="20220105" amount="-1.6" type="Broker Interest Paid" transactionID="100001595580"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.90369" assetCategory="" symbol="" description="USD Debit Interest" isin="" dateTime="20220303" amount="-4.14" type="Broker Interest Paid" transactionID="100001606075"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20220906" amount="0.48" type="Broker Interest Received" transactionID="100001618810"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20221005" amount="0.09" type="Broker Interest Received" transactionID="100001632982"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20221103" amount="1.24" type="Broker Interest Received" transactionID="100001641260"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.88422" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0491 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20211231;202000" amount="541.08" type="Dividends" transactionID="100001355656"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.90785" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.257535 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="47.86" type="Dividends" transactionID="100001365017"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91341" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.257535 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="102.50" type="Dividends" transactionID="100001377581"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92541" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.257535 PER SHARE - REVERSAL (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="-47.29" type="Dividends" transactionID="100001389542"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91310" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.257535 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="45.82" type="Dividends" transactionID="100001401491"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.94566" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0528 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20220629;202000" amount="750.91" type="Dividends" transactionID="100001418044"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.95653" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.25567 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220629;202000" amount="102.04" type="Dividends" transactionID="100001431447"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.95092" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.25567 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220629;202000" amount="88.10" type="Dividends" transactionID="100001447965"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="1.02418" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.264165 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220928;202000" amount="104.99" type="Dividends" transactionID="100001463292"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="1.02374" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.264165 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20220928;202000" amount="86.37" type="Dividends" transactionID="100001466179"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.94096" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.259552 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20221228;202000" amount="103.32" type="Dividends" transactionID="100001471155"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.94130" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.259552 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20221228;202000" amount="85.04" type="Dividends" transactionID="100001477730"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91139" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="39.20" type="Payment In Lieu Of Dividends" transactionID="100001491268"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92209" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND - REVERSAL (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="-38.62" type="Payment In Lieu Of Dividends" transactionID="100001494713"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92291" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) PAYMENT IN LIEU OF DIVIDEND (Mixed Income)" isin="DE000A1A1A11" dateTime="20220330;202000" amount="38.37" type="Payment In Lieu Of Dividends" transactionID="100001509144"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99058" assetCategory="" symbol="" description="Electronic Fund Transfer" isin="" dateTime="20220214" amount="30586.86" type="Deposits/Withdrawals" transactionID="100001526086"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00696" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20220105" amount="-25.71" type="Broker Interest Paid" transactionID="100001534092"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00207" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20220203" amount="-33.13" type="Broker Interest Paid" transactionID="100001547511"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99838" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20220303" amount="-8.70" type="Broker Interest Paid" transactionID="100001556312"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00336" assetCategory="" symbol="" description="EUR Debit Interest" isin="" dateTime="20220405" amount="-19.34" type="Broker Interest Paid" transactionID="100001563829"/>
+        <CashTransaction accountId="T1234567" currency="GBP" fxRateToBase="1.18939" assetCategory="" symbol="" description="GBP Debit Interest" isin="" dateTime="20220105" amount="-1.20" type="Broker Interest Paid" transactionID="100001572653"/>
+        <CashTransaction accountId="T1234567" currency="GBP" fxRateToBase="1.19984" assetCategory="" symbol="" description="GBP Debit Interest" isin="" dateTime="20220303" amount="-1.95" type="Broker Interest Paid" transactionID="100001586143"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.88523" assetCategory="" symbol="" description="USD Debit Interest" isin="" dateTime="20220105" amount="-1.63" type="Broker Interest Paid" transactionID="100001603275"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.90575" assetCategory="" symbol="" description="USD Debit Interest" isin="" dateTime="20220303" amount="-4.19" type="Broker Interest Paid" transactionID="100001609168"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00459" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20220906" amount="0.49" type="Broker Interest Received" transactionID="100001624144"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00880" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20221005" amount="0.10" type="Broker Interest Received" transactionID="100001636596"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99782" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20221103" amount="1.27" type="Broker Interest Received" transactionID="100001644942"/>
+      </CashTransactions>
+      <SecuritiesInfo>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" multiplier="1"/>
+        
+
+      </SecuritiesInfo>
+      
+
+    </FlexStatement>
+    
+
+    <FlexStatement accountId="T1234567" fromDate="20230102" toDate="20231229" period="" whenGenerated="20251127;082637">
+      
+
+      <Trades>
+</Trades>
+      <CorporateActions>
+</CorporateActions>
+      <CashTransactions>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.93739" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0592 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20221230;202000" amount="826.02" type="Dividends" transactionID="100001647902"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92217" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.285564 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230329;202000" amount="111.94" type="Dividends" transactionID="100001653786"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91699" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.285564 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230329;202000" amount="91.38" type="Dividends" transactionID="100001655371"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92049" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0669 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20230628;202000" amount="933.46" type="Dividends" transactionID="100001668989"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92049" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.274914 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230628;202000" amount="107.77" type="Dividends" transactionID="100001680381"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92049" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.274914 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230628;202000" amount="87.97" type="Dividends" transactionID="100001691245"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.94643" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.267572 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230927;202000" amount="85.62" type="Dividends" transactionID="100001699709"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.94643" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.267572 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230927;202000" amount="104.89" type="Dividends" transactionID="100001709981"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.904" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.279226 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20231227;202000" amount="109.46" type="Dividends" transactionID="100001718946"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.904" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.279226 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20231227;202000" amount="89.35" type="Dividends" transactionID="100001733354"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Interest Credit Adjustment" isin="" dateTime="20230606;122758" amount="0.01" type="Deposits/Withdrawals" transactionID="100001742652"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230105" amount="0.02" type="Broker Interest Received" transactionID="100001745911"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230203" amount="0.53" type="Broker Interest Received" transactionID="100001757009"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230303" amount="0.57" type="Broker Interest Received" transactionID="100001766116"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230405" amount="0.35" type="Broker Interest Received" transactionID="100001778590"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230605" amount="0.57" type="Broker Interest Received" transactionID="100001782968"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230706" amount="2.48" type="Broker Interest Received" transactionID="100001792113"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230803" amount="0.03" type="Broker Interest Received" transactionID="100001806155"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20231004" amount="0.58" type="Broker Interest Received" transactionID="100001813653"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20231103" amount="1.09" type="Broker Interest Received" transactionID="100001814432"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20231205" amount="0.03" type="Broker Interest Received" transactionID="100001831993"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.93545" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0592 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20221230;202000" amount="842.47" type="Dividends" transactionID="100001648835"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92808" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.285564 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230329;202000" amount="120.21" type="Dividends" transactionID="100001654270"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92394" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.285564 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230329;202000" amount="93.82" type="Dividends" transactionID="100001661337"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92750" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0669 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20230628;202000" amount="975.22" type="Dividends" transactionID="100001675437"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92711" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.274914 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230628;202000" amount="114.70" type="Dividends" transactionID="100001686235"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92589" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.274914 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230628;202000" amount="89.88" type="Dividends" transactionID="100001696098"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.95471" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.267572 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230927;202000" amount="88.73" type="Dividends" transactionID="100001701645"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.94764" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.267572 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20230927;202000" amount="108.36" type="Dividends" transactionID="100001715082"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.90278" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.279226 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20231227;202000" amount="114.65" type="Dividends" transactionID="100001726380"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.90340" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.279226 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20231227;202000" amount="93.18" type="Dividends" transactionID="100001735011"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99577" assetCategory="" symbol="" description="Interest Credit Adjustment" isin="" dateTime="20230606;122758" amount="0.01" type="Deposits/Withdrawals" transactionID="100001743223"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00699" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230105" amount="0.02" type="Broker Interest Received" transactionID="100001749767"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00642" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230203" amount="0.55" type="Broker Interest Received" transactionID="100001759448"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99836" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230303" amount="0.61" type="Broker Interest Received" transactionID="100001775627"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99679" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230405" amount="0.37" type="Broker Interest Received" transactionID="100001778719"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00026" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230605" amount="0.59" type="Broker Interest Received" transactionID="100001786505"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00724" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230706" amount="2.53" type="Broker Interest Received" transactionID="100001800693"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00069" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20230803" amount="0.03" type="Broker Interest Received" transactionID="100001812385"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99937" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20231004" amount="0.60" type="Broker Interest Received" transactionID="100001813887"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99227" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20231103" amount="1.16" type="Broker Interest Received" transactionID="100001822908"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99728" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20231205" amount="0.03" type="Broker Interest Received" transactionID="100001832715"/>
+      </CashTransactions>
+      <SecuritiesInfo>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" multiplier="1"/>
+        
+
+      </SecuritiesInfo>
+      
+
+    </FlexStatement>
+    
+
+    <FlexStatement accountId="T1234567" fromDate="20240101" toDate="20241231" period="" whenGenerated="20251127;082705">
+      
+
+      <Trades>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="E_ETF" description="Nasdaq 100 Acc ETF E" isin="DE000A5A5A55" dateTime="20240628;083554" tradeDate="20240628" settleDateTarget="20240702" quantity="135" tradePrice="1060.6" tradeMoney="143181" taxes="0" ibCommission="-33.601792" ibCommissionCurrency="EUR" cost="143214.601792" fifoPnlRealized="0" buySell="BUY" transactionID="100001842583"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="E_ETF" description="Nasdaq 100 Acc ETF E" isin="DE000A5A5A55" dateTime="20240628;083554" tradeDate="20240628" settleDateTarget="20240702" quantity="1" tradePrice="1060.6" tradeMoney="1060.6" taxes="0" ibCommission="-0.0539392" ibCommissionCurrency="EUR" cost="1060.6539392" fifoPnlRealized="0" buySell="BUY" transactionID="100001852959"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="F_ETF" description="S&amp;P 500 Core ETF F" isin="DE000A6A6A66" dateTime="20240628;080452" tradeDate="20240628" settleDateTarget="20240702" quantity="82" tradePrice="542.52" tradeMoney="44486.64" taxes="0" ibCommission="-23.68689248" ibCommissionCurrency="EUR" cost="44510.32689248" fifoPnlRealized="0" buySell="BUY" transactionID="100001858850"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20240628;085756" tradeDate="20240628" settleDateTarget="20240702" quantity="0.0518" tradePrice="3.2162" tradeMoney="0.16659916" taxes="0" ibCommission="-1.25" ibCommissionCurrency="EUR" cost="1.41659916" fifoPnlRealized="0" buySell="BUY" transactionID="100001870092"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20240628;085756" tradeDate="20240628" settleDateTarget="20240702" quantity="286" tradePrice="3.2162" tradeMoney="919.83" taxes="0" ibCommission="-0.04943456" ibCommissionCurrency="EUR" cost="919.87943456" fifoPnlRealized="0" buySell="BUY" transactionID="100001876469"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" dateTime="20240612;032612" tradeDate="20240612" settleDateTarget="20240614" quantity="200" tradePrice="186.94" tradeMoney="37388" taxes="0" ibCommission="-18.694" ibCommissionCurrency="EUR" cost="37406.694" fifoPnlRealized="0" buySell="BUY" transactionID="100001880593"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" dateTime="20240612;032612" tradeDate="20240612" settleDateTarget="20240614" quantity="10" tradePrice="186.94" tradeMoney="1869.4" taxes="0" ibCommission="-0.9347" ibCommissionCurrency="EUR" cost="1870.3347" fifoPnlRealized="0" buySell="BUY" transactionID="100001886732"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1862" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20240611;105417" tradeDate="20240611" settleDateTarget="20240613" quantity="-392" tradePrice="79.92" tradeMoney="-31328.64" taxes="0" ibCommission="-15.66432" ibCommissionCurrency="GBP" cost="-25634.373281" fifoPnlRealized="5678.602399" buySell="SELL" transactionID="100001897698"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93339" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20240628;081934" tradeDate="20240628" settleDateTarget="20240702" quantity="-29" tradePrice="3.425" tradeMoney="-99.325" taxes="0" ibCommission="-1.906398281" ibCommissionCurrency="USD" cost="-151.051641" fifoPnlRealized="-53.633039" buySell="SELL" transactionID="100001903946"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93339" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20240628;081945" tradeDate="20240628" settleDateTarget="20240702" quantity="-2916" tradePrice="3.425" tradeMoney="-9987.3" taxes="0" ibCommission="-3.750812344" ibCommissionCurrency="USD" cost="-15274.102082" fifoPnlRealized="-5290.552894" buySell="SELL" transactionID="100001912355"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93339" assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" dateTime="20240628;061923" tradeDate="20240628" settleDateTarget="20240702" quantity="-830" tradePrice="45.34" tradeMoney="-37632.2" taxes="0" ibCommission="-20.589549" ibCommissionCurrency="USD" cost="-29735.025082" fifoPnlRealized="7876.585369" buySell="SELL" transactionID="100001924144"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.184" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20240612;031751" tradeDate="20240612" settleDateTarget="20240614" quantity="37155.87" tradePrice="0.84272" tradeMoney="31311.9947664" taxes="0" ibCommission="-1.86214" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001938829"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1835" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20240614;202428" tradeDate="20240617" settleDateTarget="20240620" quantity="1.1627" tradePrice="0.84369" tradeMoney="0.980958363" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001956299"/>
+        
+
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.1831" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20240705;215326" tradeDate="20240708" settleDateTarget="20240710" quantity="2.8494" tradePrice="0.84578" tradeMoney="2.409965532" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001963430"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.92892" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20240610;042238" tradeDate="20240610" settleDateTarget="20240612" quantity="221.64" tradePrice="1.0765" tradeMoney="238.59546" taxes="0" ibCommission="-1.85134" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001974428"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93158" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20240617;073434" tradeDate="20240617" settleDateTarget="20240620" quantity="143967.81" tradePrice="1.07142" tradeMoney="154249.9909902" taxes="0" ibCommission="-2.882500432" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001984520"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93438" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20240619;185056" tradeDate="20240620" settleDateTarget="20240624" quantity="0.0126" tradePrice="1.07445" tradeMoney="0.01353807" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100001991645"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93339" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20240628;083312" tradeDate="20240628" settleDateTarget="20240702" quantity="45575.7" tradePrice="1.07147" tradeMoney="48832.995279" taxes="0" ibCommission="-1.86848" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100002009275"/>
+        
+
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.92695" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20240702;205016" tradeDate="20240703" settleDateTarget="20240705" quantity="0.1703" tradePrice="1.07455" tradeMoney="0.182995865" taxes="0" ibCommission="0" ibCommissionCurrency="EUR" cost="0" fifoPnlRealized="0" buySell="BUY" transactionID="100002016237"/>
+        
+
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99526" assetCategory="STK" symbol="E_ETF" description="Nasdaq 100 Acc ETF E" isin="DE000A5A5A55" dateTime="20240628;083618" tradeDate="20240628" settleDateTarget="20240702" quantity="142.0" tradePrice="1116.2149" tradeMoney="158502.51" taxes="0" ibCommission="-34.342191" ibCommissionCurrency="EUR" cost="158468.172221" fifoPnlRealized="0" buySell="BUY" transactionID="100001851681"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00739" assetCategory="STK" symbol="E_ETF" description="Nasdaq 100 Acc ETF E" isin="DE000A5A5A55" dateTime="20240628;083643" tradeDate="20240628" settleDateTarget="20240702" quantity="1.0" tradePrice="1097.4397" tradeMoney="1097.44" taxes="0" ibCommission="-0.051030" ibCommissionCurrency="EUR" cost="1097.388656" fifoPnlRealized="0" buySell="BUY" transactionID="100001853545"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00564" assetCategory="STK" symbol="F_ETF" description="S&amp;P 500 Core ETF F" isin="DE000A6A6A66" dateTime="20240628;080540" tradeDate="20240628" settleDateTarget="20240702" quantity="88.0" tradePrice="580.1413" tradeMoney="51052.43" taxes="0" ibCommission="-24.900983" ibCommissionCurrency="EUR" cost="51027.532538" fifoPnlRealized="0" buySell="BUY" transactionID="100001861872"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00114" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20240628;085819" tradeDate="20240628" settleDateTarget="20240702" quantity="0.0545" tradePrice="3.3861" tradeMoney="0.18466287" taxes="0" ibCommission="-1.220958" ibCommissionCurrency="EUR" cost="-1.036295" fifoPnlRealized="0" buySell="BUY" transactionID="100001872199"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00508" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20240628;085816" tradeDate="20240628" settleDateTarget="20240702" quantity="305.0" tradePrice="3.4292" tradeMoney="1045.92" taxes="0" ibCommission="-0.045619" ibCommissionCurrency="EUR" cost="1045.875256" fifoPnlRealized="0" buySell="BUY" transactionID="100001877597"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="0.99153" assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" dateTime="20240612;032707" tradeDate="20240612" settleDateTarget="20240614" quantity="206.0" tradePrice="192.6491" tradeMoney="39685.72" taxes="0" ibCommission="-17.416457" ibCommissionCurrency="EUR" cost="39668.298675" fifoPnlRealized="0" buySell="BUY" transactionID="100001882054"/>
+        <Trade accountId="T1234567" currency="EUR" fxRateToBase="1.00857" assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" dateTime="20240612;032657" tradeDate="20240612" settleDateTarget="20240614" quantity="10.0" tradePrice="190.9361" tradeMoney="1909.36" taxes="0" ibCommission="-0.880524" ibCommissionCurrency="EUR" cost="1908.480502" fifoPnlRealized="0" buySell="BUY" transactionID="100001892836"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.18363" assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" dateTime="20240611;105508" tradeDate="20240611" settleDateTarget="20240613" quantity="-412.0" tradePrice="83.9947" tradeMoney="-34605.81643659" taxes="0" ibCommission="-14.391345" ibCommissionCurrency="GBP" cost="-34620.207782" fifoPnlRealized="5741.37123882" buySell="SELL" transactionID="100001900222"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93114" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20240628;081943" tradeDate="20240628" settleDateTarget="20240702" quantity="-31.0" tradePrice="3.6120" tradeMoney="-111.97151775" taxes="0" ibCommission="-1.962361" ibCommissionCurrency="USD" cost="-113.933879" fifoPnlRealized="-45.73011059" buySell="SELL" transactionID="100001909150"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93833" assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" dateTime="20240628;082023" tradeDate="20240628" settleDateTarget="20240702" quantity="-3084.0" tradePrice="3.6223" tradeMoney="-11171.13464123" taxes="0" ibCommission="-3.961417" ibCommissionCurrency="USD" cost="-11175.096059" fifoPnlRealized="-6028.06434664" buySell="SELL" transactionID="100001915034"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.92717" assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" dateTime="20240628;062009" tradeDate="20240628" settleDateTarget="20240702" quantity="-888.0" tradePrice="48.5232" tradeMoney="-43088.62652942" taxes="0" ibCommission="-21.167792" ibCommissionCurrency="USD" cost="-43109.794321" fifoPnlRealized="6860.63933885" buySell="SELL" transactionID="100001932276"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.17506" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20240612;031812" tradeDate="20240612" settleDateTarget="20240614" quantity="40025.38" tradePrice="0.9078" tradeMoney="36335.13" taxes="0" ibCommission="-1.677672" ibCommissionCurrency="EUR" cost="36333.456347" fifoPnlRealized="0" buySell="BUY" transactionID="100001947515"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.19279" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20240614;202519" tradeDate="20240617" settleDateTarget="20240620" quantity="1.1825" tradePrice="0.8580" tradeMoney="1.01" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="1.014590" fifoPnlRealized="0" buySell="BUY" transactionID="100001962178"/>
+        <Trade accountId="T1234567" currency="GBP" fxRateToBase="1.17170" assetCategory="CASH" symbol="EUR.GBP" description="EUR.GBP" isin="" dateTime="20240705;215402" tradeDate="20240708" settleDateTarget="20240710" quantity="3.0249" tradePrice="0.8979" tradeMoney="2.72" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="2.715927" fifoPnlRealized="0" buySell="BUY" transactionID="100001973024"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.92259" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20240610;042321" tradeDate="20240610" settleDateTarget="20240612" quantity="230.72" tradePrice="1.1206" tradeMoney="258.54" taxes="0" ibCommission="-1.990063" ibCommissionCurrency="EUR" cost="256.553596" fifoPnlRealized="0" buySell="BUY" transactionID="100001980109"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93859" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20240617;073518" tradeDate="20240617" settleDateTarget="20240620" quantity="150811.79" tradePrice="1.1224" tradeMoney="169264.14" taxes="0" ibCommission="-3.128756" ibCommissionCurrency="EUR" cost="169261.013266" fifoPnlRealized="0" buySell="BUY" transactionID="100001985103"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93226" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20240619;185118" tradeDate="20240620" settleDateTarget="20240624" quantity="0.0134" tradePrice="1.1454" tradeMoney="0.01538377" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="0.015384" fifoPnlRealized="0" buySell="BUY" transactionID="100002001278"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.93536" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20240628;083324" tradeDate="20240628" settleDateTarget="20240702" quantity="48096.6" tradePrice="1.1307" tradeMoney="54384.48" taxes="0" ibCommission="-1.697077" ibCommissionCurrency="EUR" cost="54382.781660" fifoPnlRealized="0" buySell="BUY" transactionID="100002011498"/>
+        <Trade accountId="T1234567" currency="USD" fxRateToBase="0.92384" assetCategory="CASH" symbol="EUR.USD" description="EUR.USD" isin="" dateTime="20240702;205030" tradeDate="20240703" settleDateTarget="20240705" quantity="0.1799" tradePrice="1.1349" tradeMoney="0.20412113" taxes="0" ibCommission="0.000000" ibCommissionCurrency="EUR" cost="0.204121" fifoPnlRealized="0" buySell="BUY" transactionID="100002019550"/>
+      </Trades>
+      <CorporateActions>
+</CorporateActions>
+      <CashTransactions>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20240703" amount="-26.15" type="Withholding Tax" transactionID="100002029279"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20240805" amount="-2.39" type="Withholding Tax" transactionID="100002038065"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="GBP" fxRateToBase="1.1812" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20240703" amount="-0.6" type="Withholding Tax" transactionID="100002045545"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92695" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20240703" amount="-23.22" type="Withholding Tax" transactionID="100002065091"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91394" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0717 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20231229;202000" amount="1000.43" type="Dividends" transactionID="100002075152"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92696" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.302416 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20240327;202000" amount="118.55" type="Dividends" transactionID="100002088531"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92696" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.302416 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20240327;202000" amount="96.77" type="Dividends" transactionID="100002098389"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.93424" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0758 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20240626;202000" amount="1057.64" type="Dividends" transactionID="100002112253"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.93424" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.259254 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20240626;202000" amount="82.96" type="Dividends" transactionID="100002117990"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.89473" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.284484 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20240925;202000" amount="91.03" type="Dividends" transactionID="100002125984"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.96096" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0755 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20241227;202000" amount="831.1" type="Dividends" transactionID="100002132928"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.96096" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0755 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20241227;202000" amount="21.6" type="Dividends" transactionID="100002142738"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.96096" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.30615 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20241227;202000" amount="97.97" type="Dividends" transactionID="100002162050"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Global Snapshot Fee" isin="" dateTime="20240702;170646" amount="-0.11" type="Other Fees" transactionID="100002170304"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Global Snapshot Fee" isin="" dateTime="20240702;170646" amount="0.11" type="Other Fees" transactionID="100002182919"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20240702;170646" amount="0.03" type="Other Fees" transactionID="100002193710"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20240702;170646" amount="-0.03" type="Other Fees" transactionID="100002206968"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20240205" amount="0.08" type="Broker Interest Received" transactionID="100002215923"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20240305" amount="1.62" type="Broker Interest Received" transactionID="100002227016"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Credit Interest" isin="" dateTime="20240703" amount="130.74" type="Broker Interest Received" transactionID="100002234736"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR Credit Interest" isin="" dateTime="20240805" amount="11.95" type="Broker Interest Received" transactionID="100002241744"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20240805" amount="1.39" type="Broker Interest Received" transactionID="100002257444"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20240905" amount="2.27" type="Broker Interest Received" transactionID="100002266046"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20241003" amount="0.14" type="Broker Interest Received" transactionID="100002276426"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20241105" amount="0.25" type="Broker Interest Received" transactionID="100002276968"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20241204" amount="2.13" type="Broker Interest Received" transactionID="100002289511"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="GBP" fxRateToBase="1.1812" assetCategory="" symbol="" description="GBP Credit Interest" isin="" dateTime="20240703" amount="3.01" type="Broker Interest Received" transactionID="100002301234"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92695" assetCategory="" symbol="" description="USD Credit Interest" isin="" dateTime="20240703" amount="116.1" type="Broker Interest Received" transactionID="100002303790"/>
+        
+
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99937" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20240703" amount="-27.47" type="Withholding Tax" transactionID="100002031126"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99221" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20240805" amount="-2.50" type="Withholding Tax" transactionID="100002042491"/>
+        <CashTransaction accountId="T1234567" currency="GBP" fxRateToBase="1.17139" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20240703" amount="-0.61" type="Withholding Tax" transactionID="100002055418"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92295" assetCategory="" symbol="" description="WITHHOLDING @ 20% ON Credit Interest" isin="" dateTime="20240703" amount="-24.54" type="Withholding Tax" transactionID="100002067748"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91034" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0717 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20231229;202000" amount="1058.74" type="Dividends" transactionID="100002082457"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.93296" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.302416 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20240327;202000" amount="123.23" type="Dividends" transactionID="100002090634"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92509" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.302416 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20240327;202000" amount="102.81" type="Dividends" transactionID="100002104870"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.92532" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0758 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20240626;202000" amount="1120.40" type="Dividends" transactionID="100002116072"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.93361" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.259254 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20240626;202000" amount="88.90" type="Dividends" transactionID="100002119568"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.90148" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.284484 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20240925;202000" amount="97.84" type="Dividends" transactionID="100002129077"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.96220" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0755 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20241227;202000" amount="888.53" type="Dividends" transactionID="100002137149"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.96264" assetCategory="STK" symbol="B_ETF" description="B_ETF(DE000A2A2A22) CASH DIVIDEND USD 0.0755 PER SHARE (Mixed Income)" isin="DE000A2A2A22" dateTime="20241227;202000" amount="22.19" type="Dividends" transactionID="100002152091"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.96503" assetCategory="STK" symbol="A_ETF" description="A_ETF(DE000A1A1A11) CASH DIVIDEND USD 0.30615 PER SHARE (Mixed Income)" isin="DE000A1A1A11" dateTime="20241227;202000" amount="103.35" type="Dividends" transactionID="100002165764"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99655" assetCategory="" symbol="" description="Global Snapshot Fee" isin="" dateTime="20240702;170646" amount="-0.11" type="Other Fees" transactionID="100002173397"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99969" assetCategory="" symbol="" description="Global Snapshot Fee" isin="" dateTime="20240702;170646" amount="0.12" type="Other Fees" transactionID="100002184162"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00986" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20240702;170646" amount="0.03" type="Other Fees" transactionID="100002197744"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99713" assetCategory="" symbol="" description="Global Snapshot PNP Fee" isin="" dateTime="20240702;170646" amount="-0.03" type="Other Fees" transactionID="100002208893"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00224" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20240205" amount="0.08" type="Broker Interest Received" transactionID="100002223849"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00655" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20240305" amount="1.68" type="Broker Interest Received" transactionID="100002232056"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00921" assetCategory="" symbol="" description="EUR Credit Interest" isin="" dateTime="20240703" amount="141.00" type="Broker Interest Received" transactionID="100002240761"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00620" assetCategory="" symbol="" description="EUR Credit Interest" isin="" dateTime="20240805" amount="12.21" type="Broker Interest Received" transactionID="100002251300"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99998" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20240805" amount="1.41" type="Broker Interest Received" transactionID="100002259536"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00712" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20240905" amount="2.36" type="Broker Interest Received" transactionID="100002268656"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="1.00094" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20241003" amount="0.15" type="Broker Interest Received" transactionID="100002276949"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99566" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20241105" amount="0.27" type="Broker Interest Received" transactionID="100002285378"/>
+        <CashTransaction accountId="T1234567" currency="EUR" fxRateToBase="0.99526" assetCategory="" symbol="" description="EUR IBKR SYEP Interest" isin="" dateTime="20241204" amount="2.28" type="Broker Interest Received" transactionID="100002292292"/>
+        <CashTransaction accountId="T1234567" currency="GBP" fxRateToBase="1.16942" assetCategory="" symbol="" description="GBP Credit Interest" isin="" dateTime="20240703" amount="3.11" type="Broker Interest Received" transactionID="100002303187"/>
+        <CashTransaction accountId="T1234567" currency="USD" fxRateToBase="0.91833" assetCategory="" symbol="" description="USD Credit Interest" isin="" dateTime="20240703" amount="123.46" type="Broker Interest Received" transactionID="100002304358"/>
+      </CashTransactions>
+      <SecuritiesInfo>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="E_ETF" description="Nasdaq 100 Acc ETF E" isin="DE000A5A5A55" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="F_ETF" description="S&amp;P 500 Core ETF F" isin="DE000A6A6A66" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="D_ETC" description="Physical Gold ETC D" isin="DE000A4A4A44" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="B_ETF" description="Long Term Bond ETF B" isin="DE000A2A2A22" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="A_ETF" description="Global Stock ETF A" isin="DE000A1A1A11" multiplier="1"/>
+        
+
+        <SecurityInfo assetCategory="STK" symbol="I_SWP" description="S&amp;P 500 2X Lev Daily Swap I" isin="LU000D9D9D99" multiplier="1"/>
+        
+
+      </SecuritiesInfo>
+      
+
+    </FlexStatement>
+    
+
+  </FlexStatements>
+</FlexQueryResponse>

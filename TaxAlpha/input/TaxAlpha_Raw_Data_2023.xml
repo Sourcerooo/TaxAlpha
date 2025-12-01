@@ -1,0 +1,36 @@
+<FlexQueryResponse queryName="TaxAlpha_Raw_Data" type="AF">
+<FlexStatements count="1">
+<FlexStatement accountId="U5658230" fromDate="20230102" toDate="20231229" period="" whenGenerated="20251127;082637">
+<Trades>
+</Trades><CorporateActions>
+</CorporateActions><CashTransactions>
+<CashTransaction accountId="U5658230" currency="USD" fxRateToBase="0.93739" assetCategory="STK" symbol="IDTL" description="IDTL(IE00BSKRJZ44) CASH DIVIDEND USD 0.0592 PER SHARE (Mixed Income)" isin="IE00BSKRJZ44" dateTime="20221230;202000" amount="826.02" type="Dividends" transactionID="1578054785" />
+<CashTransaction accountId="U5658230" currency="USD" fxRateToBase="0.92217" assetCategory="STK" symbol="VUSA" description="VUSA(IE00B3XXRP09) CASH DIVIDEND USD 0.285564 PER SHARE (Mixed Income)" isin="IE00B3XXRP09" dateTime="20230329;202000" amount="111.94" type="Dividends" transactionID="1765960592" />
+<CashTransaction accountId="U5658230" currency="USD" fxRateToBase="0.91699" assetCategory="STK" symbol="VUSA" description="VUSA(IE00B3XXRP09) CASH DIVIDEND USD 0.285564 PER SHARE (Mixed Income)" isin="IE00B3XXRP09" dateTime="20230329;202000" amount="91.38" type="Dividends" transactionID="1769121678" />
+<CashTransaction accountId="U5658230" currency="USD" fxRateToBase="0.92049" assetCategory="STK" symbol="IDTL" description="IDTL(IE00BSKRJZ44) CASH DIVIDEND USD 0.0669 PER SHARE (Mixed Income)" isin="IE00BSKRJZ44" dateTime="20230628;202000" amount="933.46" type="Dividends" transactionID="1967317673" />
+<CashTransaction accountId="U5658230" currency="USD" fxRateToBase="0.92049" assetCategory="STK" symbol="VUSA" description="VUSA(IE00B3XXRP09) CASH DIVIDEND USD 0.274914 PER SHARE (Mixed Income)" isin="IE00B3XXRP09" dateTime="20230628;202000" amount="107.77" type="Dividends" transactionID="1967270412" />
+<CashTransaction accountId="U5658230" currency="USD" fxRateToBase="0.92049" assetCategory="STK" symbol="VUSA" description="VUSA(IE00B3XXRP09) CASH DIVIDEND USD 0.274914 PER SHARE (Mixed Income)" isin="IE00B3XXRP09" dateTime="20230628;202000" amount="87.97" type="Dividends" transactionID="1967277274" />
+<CashTransaction accountId="U5658230" currency="USD" fxRateToBase="0.94643" assetCategory="STK" symbol="VUSA" description="VUSA(IE00B3XXRP09) CASH DIVIDEND USD 0.267572 PER SHARE (Mixed Income)" isin="IE00B3XXRP09" dateTime="20230927;202000" amount="85.62" type="Dividends" transactionID="2168589039" />
+<CashTransaction accountId="U5658230" currency="USD" fxRateToBase="0.94643" assetCategory="STK" symbol="VUSA" description="VUSA(IE00B3XXRP09) CASH DIVIDEND USD 0.267572 PER SHARE (Mixed Income)" isin="IE00B3XXRP09" dateTime="20230927;202000" amount="104.89" type="Dividends" transactionID="2168593487" />
+<CashTransaction accountId="U5658230" currency="USD" fxRateToBase="0.904" assetCategory="STK" symbol="VUSA" description="VUSA(IE00B3XXRP09) CASH DIVIDEND USD 0.279226 PER SHARE (Mixed Income)" isin="IE00B3XXRP09" dateTime="20231227;202000" amount="109.46" type="Dividends" transactionID="2374086756" />
+<CashTransaction accountId="U5658230" currency="USD" fxRateToBase="0.904" assetCategory="STK" symbol="VUSA" description="VUSA(IE00B3XXRP09) CASH DIVIDEND USD 0.279226 PER SHARE (Mixed Income)" isin="IE00B3XXRP09" dateTime="20231227;202000" amount="89.35" type="Dividends" transactionID="2374093550" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="ADJUSTMENT: INTEREST CREDIT" isin="" dateTime="20230606;122758" amount="0.01" type="Deposits/Withdrawals" transactionID="1916273680" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR MANAGED SECURITIES (SYEP) INTEREST FOR DEC-2022" isin="" dateTime="20230105" amount="0.02" type="Broker Interest Received" transactionID="1586287771" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR MANAGED SECURITIES (SYEP) INTEREST FOR JAN-2023" isin="" dateTime="20230203" amount="0.53" type="Broker Interest Received" transactionID="1648714888" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR MANAGED SECURITIES (SYEP) INTEREST FOR FEB-2023" isin="" dateTime="20230303" amount="0.57" type="Broker Interest Received" transactionID="1709377846" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR MANAGED SECURITIES (SYEP) INTEREST FOR MAR-2023" isin="" dateTime="20230405" amount="0.35" type="Broker Interest Received" transactionID="1782736733" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR MANAGED SECURITIES (SYEP) INTEREST FOR MAY-2023" isin="" dateTime="20230605" amount="0.57" type="Broker Interest Received" transactionID="1912308448" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR MANAGED SECURITIES (SYEP) INTEREST FOR JUN-2023" isin="" dateTime="20230706" amount="2.48" type="Broker Interest Received" transactionID="1982303098" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR MANAGED SECURITIES (SYEP) INTEREST FOR JUL-2023" isin="" dateTime="20230803" amount="0.03" type="Broker Interest Received" transactionID="2045047309" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR MANAGED SECURITIES (SYEP) INTEREST FOR SEP-2023" isin="" dateTime="20231004" amount="0.58" type="Broker Interest Received" transactionID="2182420008" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR MANAGED SECURITIES (SYEP) INTEREST FOR OCT-2023" isin="" dateTime="20231103" amount="1.09" type="Broker Interest Received" transactionID="2251857932" />
+<CashTransaction accountId="U5658230" currency="EUR" fxRateToBase="1" assetCategory="" symbol="" description="EUR IBKR MANAGED SECURITIES (SYEP) INTEREST FOR NOV-2023" isin="" dateTime="20231205" amount="0.03" type="Broker Interest Received" transactionID="2320949025" />
+</CashTransactions><SecuritiesInfo>
+<SecurityInfo assetCategory="STK" symbol="IDTL" description="ISHARES USD TRES 20PLUS YR" isin="IE00BSKRJZ44" multiplier="1" />
+<SecurityInfo assetCategory="STK" symbol="IGLN" description="ISHARES PHYSICAL GOLD ETC" isin="IE00B4ND3602" multiplier="1" />
+<SecurityInfo assetCategory="STK" symbol="VUSA" description="VANG S&amp;P500 USDD" isin="IE00B3XXRP09" multiplier="1" />
+<SecurityInfo assetCategory="STK" symbol="VUSA" description="VANG S&amp;P500 USDD" isin="IE00B3XXRP09" multiplier="1" />
+</SecuritiesInfo>
+</FlexStatement>
+</FlexStatements>
+</FlexQueryResponse>

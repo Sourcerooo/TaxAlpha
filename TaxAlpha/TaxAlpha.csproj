@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="input\basiszins.csv" />
+    <None Remove="input\Generated File November 28, 2025 - 4_29PM.xml" />
+    <None Remove="input\instruments.json" />
+    <None Remove="input\prices.csv" />
+    <None Remove="input\TaxAlpha_Raw_Data_2021.xml" />
+    <None Remove="input\TaxAlpha_Raw_Data_2022.xml" />
+    <None Remove="input\TaxAlpha_Raw_Data_2023.xml" />
+    <None Remove="input\TaxAlpha_Raw_Data_2024.xml" />
+    <None Remove="input\TaxAlpha_Raw_Data_2025.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="input\basiszins.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\instruments.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\prices.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\TaxAlpha_Raw_Data_2021.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\TaxAlpha_Raw_Data_2022.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\TaxAlpha_Raw_Data_2023.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\TaxAlpha_Raw_Data_2024.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\TaxAlpha_Raw_Data_2025.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

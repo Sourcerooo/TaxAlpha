@@ -189,35 +189,49 @@ class IbkrXmlLoader:
 
     def _parse_cash_tag(self, tag: ET.Element):
         type_str = tag.get('type')
-        if type_str not in ['Dividends', 'Withholding Tax']: return 
+        
+        is_interest = 'Interest' in type_str
+        is_div = 'Dividends' in type_str
+        is_wht = 'Withholding Tax' in type_str
+
+        if not (is_interest or is_div or is_wht):
+            return 
         
         # FIX: Auch hier assetCategory nutzen
         asset_class = tag.get('assetCategory') or tag.get('assetClass', 'UNKNOWN')
-        
-        # Dividenden haben meistens STK als Kategorie
-        if asset_class not in ['STK', 'FUND']: return
+
+        # UPDATE: Cash-Zinsen haben oft assetClass="CASH" oder gar keine. 
+        # Dividenden haben "STK". Wir lassen beides durch.
+        # Aber wir filtern Forex-Kram bei Dividenden
+        if is_div and asset_class not in ['STK', 'FUND']:
+            return
 
         dt_str = tag.get('dateTime') or tag.get('reportDate')
         dt_obj = self._parse_clean_date(dt_str)
         
         amount_raw = D(tag.get('amount', '0'))
         currency = tag.get('currency')
-        fx_rate = D('1.0') # TODO: FX Lookup für Dividenden
+        fx_rate = D(tag.get('fxRateToBase', '1.0'))
+        amount_value_eur = (amount_raw).quantize(D("0.0001")) * fx_rate
         
-        action = 'DIV' if type_str == 'Dividends' else 'WHT'
+        # Action Mapping
+        if is_div: action = 'DIV'
+        elif is_wht: action = 'WHT'
+        else: action = 'INT' # Interest
         
         t = RawTransaction(
             trans_id=tag.get('transactionID'),
-            symbol=tag.get('symbol'),
+            symbol=tag.get('symbol', 'CASH'), # Zinsen haben oft kein Symbol
             isin=tag.get('isin', 'UNKNOWN'),
             asset_class=asset_class,
             date_time=dt_obj,
             action=action,
             description=tag.get('description', ''),
             quantity=D('0'),
-            amount_eur=amount_raw,
+            amount_eur=amount_value_eur,
             fees_eur=D('0'),
-            fx_rate_to_base=fx_rate
+            fx_rate_to_base=fx_rate,
+            price_origin=amount_raw # Bei Cash ist Preis = Betrag
         )
         self.transactions.append(t)
 

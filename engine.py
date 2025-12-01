@@ -40,6 +40,8 @@ class PortfolioEngine:
             # Dividenden behandeln wir separat, aber WHT gehört meist zur DIV
             # Einfachheitshalber: Wir summieren WHT bei der DIV auf oder loggen es separat
             self._handle_dividend(tx, inst, tx_date, year)
+        elif tx.action == 'INT':
+            self._handle_interest(tx, tx_date, year)
 
     def _handle_buy(self, tx: RawTransaction, inst: Instrument, tx_date: date):
         # Kaufkosten = (Preis * Menge) + Gebühren
@@ -203,6 +205,32 @@ class PortfolioEngine:
                 if key not in self.distributions:
                     self.distributions[key] = D('0')
                 self.distributions[key] += div_per_share
+                
+     # Neue Methode in der Klasse:
+    def _handle_interest(self, tx: RawTransaction, tx_date: date, year: int):
+        # Zinsen sind voll steuerpflichtig (keine Teilfreistellung).
+        # Positive Zinsen = Ertrag.
+        # Negative Zinsen (bei IBKR möglich) = Oft NICHT abzugsfähig (Privatvergnügen).
+        # Wir loggen sie, aber für den Steuerreport summieren wir nur die Positiven (konservativ).
+        # Oder wir saldieren sie, wenn es z.B. Stückzinsen wären (was es hier bei Cash meist nicht ist).
+        
+        # Entscheidung: Wir nehmen den Nettowert, warnen aber bei negativen Summen.
+        
+        raw_amount = tx.amount_eur
+        
+        # TFS ist hier immer 0.00
+        taxable = raw_amount
+        
+        event = TaxEvent(
+            year=year,
+            date=tx_date,
+            type='INT',
+            symbol=tx.symbol,
+            isin=tx.isin,
+            raw_profit=raw_amount,
+            taxable_profit=taxable
+        )
+        self.tax_ledger.append(event)
 
     def perform_year_end_closing(self, year: int, prices: PriceProvider):
         """
