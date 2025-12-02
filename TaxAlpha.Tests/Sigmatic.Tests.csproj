@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TaxAlpha\TaxAlpha.csproj" />
+    <ProjectReference Include="..\TaxAlpha\Sigmatic.csproj" />
   </ItemGroup>
 
 </Project>
