@@ -33,9 +33,15 @@ namespace TaxAlpha.Infrastructure.Providers
             if (!File.Exists(filePath))
             {
                 await GenerateTestData(symbol, filePath);
-            }
-            
+            }           
+
             prices.AddRange(ReadFromCsv(filePath));
+            var lastDate = prices.Max(p => p.Date);
+            if (!prices.Any() || lastDate.Date < DateTime.Today)
+            {
+                await GenerateTestData(symbol, lastDate, filePath);
+                prices.AddRange(ReadFromCsv(filePath));
+            }
             var orderedPrices = prices.OrderBy(p => p.Date).ToList();
             _priceCache[symbol] = orderedPrices;
             return orderedPrices;
@@ -98,10 +104,15 @@ namespace TaxAlpha.Infrastructure.Providers
 
         private async Task GenerateTestData(string symbol, string filePath)
         {
+            await GenerateTestData(symbol, DateTime.Today.AddYears(-1), filePath);            
+        }
+
+        private async Task GenerateTestData(string symbol, DateTime startDate, string filePath)
+        {
             var prices = new List<PriceTick>();
             var random = new Random();
-            var currentDate = DateTime.Today.AddYears(-1);
-            var lastClose = (decimal)(random.NextDouble() * 100 + 50); 
+            var currentDate = startDate;
+            var lastClose = (decimal)(random.NextDouble() * 100 + 50);
 
             for (int i = 0; i < 365; i++)
             {

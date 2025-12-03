@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+SXCplG4+OA=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Sigmatic\\Sigmatic.API\\Sigmatic.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\splee\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "C:\\Users\\splee\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

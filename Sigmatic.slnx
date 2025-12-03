@@ -1,4 +1,14 @@
 <Solution>
-  <Project Path="TaxAlpha.Tests/Sigmatic.Tests.csproj" />
-  <Project Path="TaxAlpha/Sigmatic.csproj" />
+  <Folder Name="/API/">
+    <Project Path="Sigmatic.API/Sigmatic.API.csproj" Id="60d7ab18-e972-45bf-bf63-f694219ae0bc" />
+  </Folder>
+  <Folder Name="/Application/">
+    <Project Path="Sigmatic.App/Sigmatic.App.csproj" Id="86d61a0c-1956-4fd0-a147-e3319d09e870" />
+  </Folder>
+  <Folder Name="/Core/">
+    <Project Path="Sigmatic.Core/Sigmatic.Core.csproj" Id="7f3d8a9b-0365-4ec4-b4aa-acc9c05ba6df" />
+    <Project Path="Sigmatic.Tests/Sigmatic.Tests.csproj" />
+    <Project Path="Sigmatic/Sigmatic.csproj" />
+  </Folder>
+  <Folder Name="/Frontend/" />
 </Solution>

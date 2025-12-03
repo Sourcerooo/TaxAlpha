@@ -34,6 +34,7 @@ static async Task RunTaxReport()
     Console.WriteLine("\n--- Running Tax Report ---");
     string basePath = AppDomain.CurrentDomain.BaseDirectory;
     string inputPath = Path.Combine(basePath, "input");
+    string configurationPath = Path.Combine(inputPath, "configuration");
 
     Console.WriteLine($"Searching for input files in: {inputPath}"); // Debug Output
 
@@ -45,9 +46,9 @@ static async Task RunTaxReport()
     List<RawTransaction> transactions;
     try
     {
-        priceProvider = new CsvPriceProvider(Path.Combine(inputPath, "prices.csv"));
-        interestProvider = new CsvInterestProvider(Path.Combine(inputPath, "basiszins.csv"));
-        instrumentProvider = new JsonInstrumentProvider(Path.Combine(inputPath, "instruments.json"));
+        priceProvider = new CsvPriceProvider(Path.Combine(configurationPath, "prices.csv"));
+        interestProvider = new CsvInterestProvider(Path.Combine(configurationPath, "basiszins.csv"));
+        instrumentProvider = new JsonInstrumentProvider(Path.Combine(configurationPath, "instruments.json"));
 
         // 2. Load Data
         loader = new IbkrXmlLoader();
@@ -97,8 +98,9 @@ static async Task RunTradingEngine()
     Console.WriteLine("\n--- Running Trading Engine ---");
     string basePath = AppDomain.CurrentDomain.BaseDirectory;
     string inputPath = Path.Combine(basePath, "input");
+    string pricePath = Path.Combine(inputPath, "priceData");
 
-    var historicalPriceProvider = new YahooHistoricalPriceProvider(inputPath);
+    var historicalPriceProvider = new YahooHistoricalPriceProvider(pricePath);
     var portfolio = new Portfolio(100000m);
     var logger = new ConsoleStrategyLogger();
     var tradingEngine = new TradingEngine(historicalPriceProvider, portfolio, logger);
